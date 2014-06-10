@@ -1,0 +1,37 @@
+<h1>Listing programs</h1>
+
+<table>
+  <tr>
+    <th>Program event date</th>
+    <th>Program name hu</th>
+    <th>Program name en</th>
+    <th>Price full</th>
+    <th>Price full EURO</th>
+    <th>Price discount EURO</th>
+    <th>Price discount</th>
+    <th>Exchange rate</th>
+    <th>Show</th>
+    <th>Edit</th>
+    <th>Destroy</th>
+  </tr>
+
+<% @programs.each do |program| %>
+  <tr>
+    <td><%= program.event_date %></td>
+    <td><%= program.program_name_hu %></td>
+    <td><%= program.program_name_en %></td>
+    <td><%= program.price_full %></td>
+    <td><%= program.price_full_eur %></td>
+    <td><%= program.price_discount_eur %></td>
+    <td><%= program.price_discount %></td>
+    <td><%= program.exchange_rate %></td>
+    <td><%= link_to 'Show', program %></td>
+    <td><%= link_to 'Edit', edit_program_path(program) %></td>
+    <td><%= link_to 'Destroy', program, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Program', new_program_path %>

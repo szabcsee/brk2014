@@ -1,0 +1,201 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+body {
+	padding-top: 15px;
+}
+
+ h1 {
+ 	color: #D11C36;
+    font-size: 23px;
+    margin: 18px;
+ }
+ h2,h3{
+ 	font-size: 24px;
+ }
+ h4,h5 {
+ 	font-size: 20px;
+ }
+#container {
+	width: 960px;
+	margin: 0px auto;
+}
+.red-line {
+    border-bottom: 2px solid #D11C36;
+    height: 55px;
+    padding-left: 70px;
+}
+.red-line a {
+	border: none;
+	display: inline-block;
+	margin: 5px 10px;
+}
+.red-line a:hover {
+	border: none;
+}
+#user_management {
+	display: inline-block;
+	margin: 0px auto;
+	width: 300px;
+}
+.logo {
+    position: absolute;
+    right: 9.5em;
+    top: 22px;
+}
+.currency {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    float: right;
+    padding: 10px 5px;
+}
+.currency label, .currency input {
+	display: inline-block;
+	height: 20px;
+	vertical-align: middle;
+	width: 130px;
+}
+form#new_user label, input {
+	display: inline-block;
+	width: 200px;
+	height: 20px;
+	vertical-align: middle;
+}
+form#new_user .currency label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 155px;
+}
+form#new_user .meal_fields {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 320px;
+}
+form#new_user .child_fields {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    width: 320px;
+}
+.child_fields h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+#price_field {
+    background: none repeat scroll 0 0 #EBEBEB;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 15px;
+    position: fixed;
+    right: 25%;
+    top: 50%;
+}
+#price_field h6 {
+    color: #242424;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 10px 6px;
+}
+#price_field span, #price_field span #total_price {
+    color: #006DCC;
+    font-size: 22px;
+    font-weight: bold;
+}
+#flight_dates select {
+    display: inline-block;
+    width: 75px;
+}
+form#new_user .btn-success {
+    margin: 0px 5px;
+}
+input.btn-primary.btn-action {
+    display: block;
+    height: 40px;
+    width: 125px;
+    padding: 5px 10px;
+}
+a#back_button {
+    margin: 10px 0px;
+}
+/* Static Pages Styling */
+body.static_pages.guru_yoga span,
+body.static_pages.home span,
+body.static_pages.home strong,
+body.static_pages.home p {
+    display: block;
+    font-size: 16px;
+    line-height: 160%;
+    margin-left: 25px;
+}
+body.static_pages.karma_paksi h4,
+body.static_pages.karma_paksi p {
+    margin-left: 25px;
+}
+body.static_pages.home p {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 120%;
+    margin: 10px 25px;
+}
+body.static_pages.karma_paksi #karma_paksi_image {
+    display: block;
+    float: right;
+}
+body.static_pages.information a,
+body.static_pages.information a:visited {
+    color: #D11C36;
+}
+body.static_pages.information p,
+body.static_pages.information #page_content strong {
+	display: block;
+	margin: 10px 25px;
+	font-size: 16px;
+}
+body.static_pages.information #page_content ul li {
+    display: block;
+    font-size: 16px;
+    line-height: 160%;
+}
+body.static_pages.information #page_content ul {
+    margin: 10px 25px;
+}
+body.static_pages.information #page_content h4 {
+    margin: 10px 25px;
+}
+body.static_pages.information #page_content table{
+	margin: 10px 25px;
+    width: 60%;
+}
+body.static_pages.information #page_content td{
+    font-size: 16px;
+    line-height: 160%;
+    height: 100%;
+    text-align: left;
+}
+body.static_pages.information #page_content th{
+    font-size: 16px;
+    line-height: 160%;
+    height: 100%;
+}
+body.static_pages.information #paragraph li{
+    list-style-type: square;
+    margin-left: 35px;
+}
+body.static_pages.home img#home_pic {
+    display: block;
+    margin: 10px auto;
+    width: 696px;
+}
