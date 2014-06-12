@@ -120,43 +120,7 @@
 		<% end %>
 	</table>
 </div>
-<h2><%= t 'travel' %></h2>
-<p>
-	<%= t 'travel_description' %>
-</p>
-<%= f.fields_for :travels do |travel| %>
-<fieldset>
-	<div class="field">
-		<%= travel.label :bus_trip %>
-		<%= travel.check_box :bus_trip, :class => 'bus_trip' %>
-	</div>
-	<div class="field">
-		<%= travel.label :arrival %>
-		<%= travel.select(:arrival, [['2013-07-09 11:00', '2013-07-09 11:00'], ['2013-07-09 15:00', '2013-07-09 15:00']]) %>
-	</div>
-	<div class="field">
-		<%= travel.label :arrival_seats %>
-		<%= travel.select(:arrival_seats, (0...6), {}, :class => 'seats') %>
-	</div>
-	<div class="field">
-		<%= travel.label :departure %>
-		<%= travel.select(:departure, [['2013-07-14 17:00', '2013-07-14 17:00']]) %>
-	</div>
-	<div class="field">
-		<%= travel.label :departure_seats %>
-		<%= travel.select(:departure_seats, (0...6), {}, :class => 'seats') %>
-	</div>
-	<p> <%= t 'flight_description' %> </p>
-	<div class="field" id="flight_dates">
-		<%= travel.label :flight_date %>
-		<%= travel.datetime_select :flight_date %>
-	</div>
-	<div class="field">
-		<%= travel.label :flight_number %>
-		<%= travel.text_field :flight_number %>
-	</div>
-</fieldset>
-<% end %>
+
 <%= f.hidden_field :password, :value => 'Dummy' %>
 <%= f.hidden_field :password_confirmation, :value => 'Dummy' %>
 <%= f.hidden_field :reference_number %>

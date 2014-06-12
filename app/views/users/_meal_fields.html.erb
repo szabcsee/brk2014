@@ -43,12 +43,6 @@
 				<%= f.hidden_field :sixth_day, :value => @meal_dates[5] %> </td>
 				<td class="field"> <%= f.select :sixth_day_meal_type, sixth_day_meal_type_list, {}, {:class => "meal_price"}%> </td>
 			</tr>
-			<tr>
-				<td class="field"> <%= @meal_dates[6] %>
-				<br />
-				<%= f.hidden_field :seventh_day, :value => @meal_dates[6] %> </td>
-				<td class="field"> <%= f.select :seventh_day_meal_type, seventh_day_meal_type_list, {}, { :class => "meal_price seventh_day" }%> </td>
-			</tr>
 		</table>
 		<%= f.link_to_remove t('remove_meal'), class: "remove_fields btn btn-small btn-danger" %>
 		<% end %>

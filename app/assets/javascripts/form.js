@@ -168,7 +168,7 @@ $(document).ready(function(){
 	        					price = price + 1200;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 4.5;	
+	        					price = price + 4;	
 	        				}
 	        			}
 	        			if ($(this).val() == "3"){
@@ -176,7 +176,7 @@ $(document).ready(function(){
 	        					price = price + 2400;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 8.5;	
+	        					price = price + 8;	
 	        				}
 	        			}
         			}
@@ -209,7 +209,7 @@ $(document).ready(function(){
 	        					price = price + 1200;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 4.5;	
+	        					price = price + 4;	
 	        				}
 	        			}
 	        			if ($(this).val() == "3"){
@@ -217,7 +217,7 @@ $(document).ready(function(){
 	        					price = price + 1800;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 6.5;	
+	        					price = price + 6;	
 	        				}
 	        			}
         			}
@@ -250,7 +250,7 @@ $(document).ready(function(){
 	        					price = price + 1200;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 4.5;	
+	        					price = price + 4;	
 	        				}
 	        			}
 	        			if ($(this).val() == "3"){
@@ -258,7 +258,7 @@ $(document).ready(function(){
 	        					price = price + 3000;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 11;	
+	        					price = price + 10;	
 	        				}
 	        			}
         			}
@@ -287,26 +287,26 @@ $(document).ready(function(){
 		if ($("#full_course").is(":checked")){
 				if (cat == 'after' && pricecat == 'full'){
 						if (lang == "hu"){
-	        				price = price + 35000;
+	        				price = price + 20000;
 	        			}
 	        			if (lang == "en"){
-	        				price = price + 125;	
+	        				price = price + 70;	
 	        			}
 				}
 				if (cat == 'before' && pricecat == 'full'){
 						if (lang == "hu"){
-	        				price = price + 30000;
+	        				price = price + 15000;
 	        			}
 	        			if (lang == "en"){
-	        				price = price + 108;	
+	        				price = price + 50;	
 	        			}
 				}
 				else if (pricecat == 'discount'){
 						if (lang == "hu"){
-	        				price = price + 17500;
+	        				price = price + 10000;
 	        			}
 	        			if (lang == "en"){
-	        				price = price + 63;	
+	        				price = price + 35;	
 	        			}
 	        	}
 		}

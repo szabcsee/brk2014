@@ -31,7 +31,7 @@ class UsersController < ApplicationController
   def new
     reset_session
     @user = User.new
-    @meal_dates = ["2013-07-08","2013-07-09","2013-07-10","2013-07-11","2013-07-12","2013-07-13","2013-07-14"]
+    @meal_dates = ["2014-07-22","2014-07-23","2014-07-24","2014-07-25","2014-07-26","2014-07-27"]
     @child = @user.children.build
     @meals = @user.meals.build
     @travels = @user.travels.build
@@ -45,7 +45,7 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
-    @meal_dates = ["2013-07-08","2013-07-09","2013-07-10","2013-07-11","2013-07-12","2013-07-13","2013-07-14"]
+    @meal_dates = ["2014-07-22","2014-07-23","2014-07-24","2014-07-25","2014-07-26","2014-07-27"]
     @user = User.find(params[:id])
     @user.meals
     @user.programs
@@ -57,10 +57,10 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(params[:user])
-    @meal_dates = ["2013-07-08","2013-07-09","2013-07-10","2013-07-11","2013-07-12","2013-07-13","2013-07-14"]
+    @meal_dates = ["2014-07-22","2014-07-23","2014-07-24","2014-07-25","2014-07-26","2014-07-27"]
     @programs = Program.all
-    start = DateTime.new(2013,7,10,0,0,0)
-    finish = DateTime.new(2013,7,12,0,0,0)
+    start = DateTime.new(2014,7,22,0,0,0)
+    finish = DateTime.new(2014,7,27,0,0,0)
     @range = start..finish
     respond_to do |format|
       if @user.save
