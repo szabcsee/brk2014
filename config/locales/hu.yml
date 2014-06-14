@@ -185,12 +185,18 @@ hu:
           par_6: "A Gyémánt Úton most is ugyanilyen fontos a tanító – áldásának köszönhetően kezelhető álomként éljük meg a világot. Ő közvetíti nekünk az egység tapasztalatát, azt, hogy a tapasztaló, a tapasztalat és a tapasztalás folyamata egy. Mint a másik két megvalósítási úton – a tértudatosságban való időzés és az egybeolvadás a buddhaformákkal – itt is a Nagy Pecsétet valósítjuk meg természetes állapotunkként, amikor meditációban eggyé válunk a tanítóval. Bármelyik utat követjük: ez a látásmód mindent megvalósít, és teljesen egyedülálló. Tartalmazza az alapot – a minden lényben ott rejlő buddhatermészetet; az utat – egy jelentőségteljes életet, amely során használjuk az elmélyüléshez és fejlődéshez szükséges eszközöket; és a célt – a teljes megvilágosodást. Minden képzet elhalványul, ha közvetlenül osztozunk a felismerésben."
           par_7: ""
           par_8: ""
+		  gabor_szovege: ""
         karma_paksi:
           menu_title: "Karma Paksi"
           title: "2. Karmapa Karma Paksi"
           subtitle: "1204-1283"
           description: "A kelet-tibeti Csilé Caktóból származó 2. Karmapa Karma Paksi igazi csodagyerek volt. Hatéves korára magától megtanult írni és olvasni. Tízévesen elég volt egyszer látnia egy szöveget ahhoz, hogy megjegyezze. Amikor Közép-Tibetbe tartott, hogy további oktatást kapjon, Pomdragpa Szönam Dordzséval találkozott, akinek egy látomásban megjelent az 1. Karmapa Düszum Tyenpa, aki közölte vele, hogy ez a fiú lesz a következő vonaltartó. Így Karma Paksi megkapta a Kagyü átadást. Rövid időn belül ismertté vált különleges képességei miatt - Tibetben, Kínában és Mongóliában egyaránt voltak tanítványai. A Paksi mongol eredetû szó, mestert jelent - e néven vált a 2. Karmapa ismertté, miután a mongol császár magas spirituális pozíciót adományozott neki."
-        information:
+        gabor_test: 
+         menu_title: "Gabor test page"
+         title: "Gabor test page mock up"
+         subtitle: "abrka dabra"
+         description: "proba szoveg proba szovegproba szovegproba szovegproba szovegproba szovegproba szovegproba szoveg"
+		information:
           menu_title: "Információ"
           prices:
             title: "Kurzusdíj"
