@@ -14,9 +14,6 @@ Brk2013::Application.routes.draw do
 
   root :to => 'static_pages#home'
 
-  devise_for :admin_users, ActiveAdmin::Devise.config
-  ActiveAdmin.routes(self)
-
   get "sessions/new"
 
   scope ":locale" do
