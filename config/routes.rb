@@ -4,7 +4,7 @@ Brk2013::Application.routes.draw do
 
   get "static_pages/guru_yoga"
   
-  get "static_pages/gabor_test"
+  get "static_pages/traveling_teachers"
 
   get "static_pages/karma_paksi"
 
