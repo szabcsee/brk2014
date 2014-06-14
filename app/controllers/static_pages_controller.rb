@@ -2,6 +2,10 @@ class StaticPagesController < ApplicationController
   def home
     @menu_enabled = true
   end
+  
+  def gabor_test
+    @menu_enabled = true
+  end
 
   def guru_yoga
     @menu_enabled = true
