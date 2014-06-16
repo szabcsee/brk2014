@@ -1,4 +1,5 @@
 class RegistrationsController < ApplicationController
+  before_action :set_registration, only: [:show, :edit, :update, :destroy]
   # GET /registrations
   # GET /registrations.json
   def index
@@ -13,7 +14,6 @@ class RegistrationsController < ApplicationController
   # GET /registrations/1
   # GET /registrations/1.json
   def show
-    @registration = Registration.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -34,13 +34,13 @@ class RegistrationsController < ApplicationController
 
   # GET /registrations/1/edit
   def edit
-    @registration = Registration.find(params[:id])
+
   end
 
   # POST /registrations
   # POST /registrations.json
   def create
-    @registration = Registration.new(params[:registration])
+    @registration = Registration.new(registration_params)
 
     respond_to do |format|
       if @registration.save
@@ -56,10 +56,9 @@ class RegistrationsController < ApplicationController
   # PUT /registrations/1
   # PUT /registrations/1.json
   def update
-    @registration = Registration.find(params[:id])
 
     respond_to do |format|
-      if @registration.update_attributes(params[:registration])
+      if @registration.update(registration_params)
         format.html { redirect_to @registration, notice: 'Registration was successfully updated.' }
         format.json { head :no_content }
       else
@@ -72,7 +71,6 @@ class RegistrationsController < ApplicationController
   # DELETE /registrations/1
   # DELETE /registrations/1.json
   def destroy
-    @registration = Registration.find(params[:id])
     @registration.destroy
 
     respond_to do |format|
@@ -80,4 +78,15 @@ class RegistrationsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_registration
+      @payment = Payment.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def registration_params
+      params.require(:registration).permit(:user_id, :program_id, :participate)
+    end
 end

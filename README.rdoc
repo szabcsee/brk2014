@@ -1,7 +1,7 @@
 - Registration and administration for the Becske 2014 Course
 
-Adjusting the brk2013 to this year's course.
+Adjusting the Brk2014 to this year's course.
 
 _________________________
-Written in: Ruby on Rails 3.2.13
+Written in: Ruby on Rails 4
 

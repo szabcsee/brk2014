@@ -1,9 +1,9 @@
-Brk2013::Application.routes.draw do
+Brk2014::Application.routes.draw do
 
   get "static_pages/home"
 
   get "static_pages/guru_yoga"
-  
+
   get "static_pages/traveling_teachers"
 
   get "static_pages/karma_paksi"
@@ -31,7 +31,7 @@ Brk2013::Application.routes.draw do
     resources :sessions
   end
 
-  
+
 
   get 'signup', to: 'users#new', as: 'signup'
   get 'login', to: 'sessions#new', as: 'login'
@@ -85,7 +85,7 @@ Brk2013::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  
+
 
   # See how all your routes lay out with "rake routes"
 

@@ -3,6 +3,7 @@ class CreatePayments < ActiveRecord::Migration
     create_table :payments do |t|
       t.datetime :date
       t.string :comment
+      t.integer :amount
       t.references :user
 
       t.timestamps

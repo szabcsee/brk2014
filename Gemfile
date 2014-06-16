@@ -1,35 +1,60 @@
 source 'https://rubygems.org'
 
+# User management
+gem 'devise'
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
+
+# Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.0'
 
-gem 'mysql2'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 4.0.0'
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
+gem 'jquery-turbolinks'
+
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 1.2'
+
+# Database management for production
+# gem 'mysql2'
+
+# Forms
 gem 'nested_form'
-gem 'bcrypt-ruby', '~> 3.0.0'
-gem 'activeadmin', github: 'gregbell/active_admin'
+
+# Use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.1.2'
+
 gem 'twitter-bootstrap-rails'
+
 # Gems used only for assets and not required
 # in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 4.0.0'
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
-end
+
 gem 'execjs'
-gem 'therubyracer', :platforms => :ruby
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'devise'
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+gem 'therubyracer', platforms: :ruby
+
+# This is for an active-support problem with Windows for more details visit
+# https://github.com/tzinfo/tzinfo/wiki/Resolving-TZInfo::DataSourceNotFound-Errors
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # Use unicorn as the app server
 # gem 'unicorn'

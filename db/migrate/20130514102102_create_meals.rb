@@ -14,8 +14,6 @@ class CreateMeals < ActiveRecord::Migration
       t.integer :fifth_day_meal_type
       t.date :sixth_day
       t.integer :sixth_day_meal_type
-      t.date :seventh_day
-      t.integer :seventh_day_meal_type
       t.references :user
 
       t.timestamps

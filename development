@@ -1,0 +1,28 @@
+-- create_table("admin_notes", {:force=>true})
+   -> 0.0460s
+-- add_index("admin_notes", ["admin_user_type", "admin_user_id"], {:name=>"index_admin_notes_on_admin_user_type_and_admin_user_id"})
+   -> 0.0350s
+-- add_index("admin_notes", ["resource_type", "resource_id"], {:name=>"index_admin_notes_on_resource_type_and_resource_id"})
+   -> 0.0080s
+-- create_table("children", {:force=>true})
+   -> 0.0100s
+-- add_index("children", ["user_id"], {:name=>"index_children_on_user_id"})
+   -> 0.0130s
+-- create_table("meals", {:force=>true})
+   -> 0.0090s
+-- add_index("meals", ["user_id"], {:name=>"index_meals_on_user_id"})
+   -> 0.0120s
+-- create_table("payments", {:force=>true})
+   -> 0.0110s
+-- add_index("payments", ["user_id"], {:name=>"index_payments_on_user_id"})
+   -> 0.0100s
+-- create_table("programs", {:force=>true})
+   -> 0.0110s
+-- create_table("registrations", {:force=>true})
+   -> 0.0100s
+-- create_table("travels", {:force=>true})
+   -> 0.0120s
+-- create_table("users", {:force=>true})
+   -> 0.0080s
+-- initialize_schema_migrations_table()
+   -> 0.0250s

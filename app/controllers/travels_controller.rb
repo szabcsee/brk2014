@@ -1,4 +1,6 @@
 class TravelsController < ApplicationController
+  before_action :set_travel, only: [:show, :edit, :update, :destroy]
+
   # GET /travels
   # GET /travels.json
   def index
@@ -13,7 +15,6 @@ class TravelsController < ApplicationController
   # GET /travels/1
   # GET /travels/1.json
   def show
-    @travel = Travel.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -34,13 +35,12 @@ class TravelsController < ApplicationController
 
   # GET /travels/1/edit
   def edit
-    @travel = Travel.find(params[:id])
   end
 
   # POST /travels
   # POST /travels.json
   def create
-    @travel = Travel.new(params[:travel])
+    @travel = Travel.new(travel_params)
 
     respond_to do |format|
       if @travel.save
@@ -56,10 +56,9 @@ class TravelsController < ApplicationController
   # PUT /travels/1
   # PUT /travels/1.json
   def update
-    @travel = Travel.find(params[:id])
 
     respond_to do |format|
-      if @travel.update_attributes(params[:travel])
+      if @travel.update(travel_params)
         format.html { redirect_to @travel, notice: 'Travel was successfully updated.' }
         format.json { head :no_content }
       else
@@ -72,7 +71,6 @@ class TravelsController < ApplicationController
   # DELETE /travels/1
   # DELETE /travels/1.json
   def destroy
-    @travel = Travel.find(params[:id])
     @travel.destroy
 
     respond_to do |format|
@@ -81,4 +79,14 @@ class TravelsController < ApplicationController
     end
   end
 
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_travel
+      @travel = Travel.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def travel_params
+      params.require(:travel).permit(:arrival, :arrival_seats, :bus_trip, :departure, :departure_seats, :flight_date, :flight_number, :user_id)
+    end
 end

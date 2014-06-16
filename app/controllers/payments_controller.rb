@@ -1,5 +1,5 @@
 class PaymentsController < InheritedResources::Base
-
+before_action :set_payment, only: [:show, :edit, :update, :destroy]
 # GET /payments
   # GET /payments.json
   def index
@@ -14,7 +14,7 @@ class PaymentsController < InheritedResources::Base
   # GET /payments/1
   # GET /payments/1.json
   def show
-    @payment = Payment.find(params[:id])
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @payment }
@@ -34,13 +34,13 @@ class PaymentsController < InheritedResources::Base
 
   # GET /payments/1/edit
   def edit
-    @payment = Payment.find(params[:id])
+
   end
 
   # POST /payments
   # POST /payments.json
   def create
-    @payment = Payment.new(params[:payment])
+    @payment = Payment.new(payment_params)
 
     respond_to do |format|
       if @payment.save
@@ -56,10 +56,9 @@ class PaymentsController < InheritedResources::Base
   # PUT /payments/1
   # PUT /payments/1.json
   def update
-    @payment = Payment.find(params[:id])
 
     respond_to do |format|
-      if @payment.update_attributes(params[:payment])
+      if @payment.update(payment_params)
         format.html { redirect_to @payment, notice: 'payment was successfully updated.' }
         format.json { head :no_content }
       else
@@ -72,7 +71,7 @@ class PaymentsController < InheritedResources::Base
   # DELETE /payments/1
   # DELETE /payments/1.json
   def destroy
-    @payment = Payment.find(params[:id])
+
     @payment.destroy
 
     respond_to do |format|
@@ -80,4 +79,15 @@ class PaymentsController < InheritedResources::Base
       format.json { head :no_content }
     end
   end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_payment
+      @payment = Payment.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def payment_params
+      params.require(:payment).permit(:comment, :date, :amount, :user_id, users_attributes: [:email_address, :password, :password_confirmation, :first_name, :home_country, :payment, :phone_number, :price_category, :price_method, :reference_number, :second_name])
+    end
 end

@@ -1,4 +1,5 @@
 class MealsController < ApplicationController
+  before_action :set_meal, only: [:show, :edit, :update, :destroy]
   # GET /meals
   # GET /meals.json
   def index
@@ -13,7 +14,6 @@ class MealsController < ApplicationController
   # GET /meals/1
   # GET /meals/1.json
   def show
-    @meal = Meal.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -34,13 +34,13 @@ class MealsController < ApplicationController
 
   # GET /meals/1/edit
   def edit
-    @meal = Meal.find(params[:id])
+
   end
 
   # POST /meals
   # POST /meals.json
   def create
-    @meal = Meal.new(params[:meal])
+    @meal = Meal.new(meal_params)
 
     respond_to do |format|
       if @meal.save
@@ -56,10 +56,9 @@ class MealsController < ApplicationController
   # PUT /meals/1
   # PUT /meals/1.json
   def update
-    @meal = Meal.find(params[:id])
 
     respond_to do |format|
-      if @meal.update_attributes(params[:meal])
+      if @meal.update(meal_params)
         format.html { redirect_to @meal, notice: 'Meal was successfully updated.' }
         format.json { head :no_content }
       else
@@ -72,7 +71,6 @@ class MealsController < ApplicationController
   # DELETE /meals/1
   # DELETE /meals/1.json
   def destroy
-    @meal = Meal.find(params[:id])
     @meal.destroy
 
     respond_to do |format|
@@ -87,7 +85,7 @@ class MealsController < ApplicationController
     @lunch = []
     @dinner = []
     @meals.each do |meal|
-      case meal.first_day_meal_type 
+      case meal.first_day_meal_type
         when 1
           @lunch[0] += 1
         when 3
@@ -95,7 +93,7 @@ class MealsController < ApplicationController
           @lunch[0] += 1
           @dinner[0] += 1
       end
-      case meal.second_day_meal_type 
+      case meal.second_day_meal_type
         when 1
           @lunch[1] += 1
         when 3
@@ -137,4 +135,16 @@ class MealsController < ApplicationController
       end
     end
   end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_meal
+      @meal = Meal.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def meal_params
+      params.require(:meal).permit(:fifth_day, :fifth_day_meal_type, :first_day, :first_day_meal_type, :food_type, :fourth_day, :fourth_day_meal_type, :second_day, :second_day_meal_type, :sixth_day, :sixth_day_meal_type, :third_day, :third_day_meal_type)
+    end
+
 end

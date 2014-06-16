@@ -1,4 +1,5 @@
 class ProgramsController < ApplicationController
+  before_action :set_program, only: [:show, :edit, :update, :destroy]
   # GET /programs
   # GET /programs.json
   def index
@@ -13,7 +14,6 @@ class ProgramsController < ApplicationController
   # GET /programs/1
   # GET /programs/1.json
   def show
-    @program = Program.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -34,13 +34,13 @@ class ProgramsController < ApplicationController
 
   # GET /programs/1/edit
   def edit
-    @program = Program.find(params[:id])
+
   end
 
   # POST /programs
   # POST /programs.json
   def create
-    @program = Program.new(params[:program])
+    @program = Program.new(program_params)
 
     respond_to do |format|
       if @program.save
@@ -56,10 +56,9 @@ class ProgramsController < ApplicationController
   # PUT /programs/1
   # PUT /programs/1.json
   def update
-    @program = Program.find(params[:id])
 
     respond_to do |format|
-      if @program.update_attributes(params[:program])
+      if @program.update(program_params)
         format.html { redirect_to @program, notice: 'Program was successfully updated.' }
         format.json { head :no_content }
       else
@@ -72,7 +71,6 @@ class ProgramsController < ApplicationController
   # DELETE /programs/1
   # DELETE /programs/1.json
   def destroy
-    @program = Program.find(params[:id])
     @program.destroy
 
     respond_to do |format|
@@ -80,4 +78,16 @@ class ProgramsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_program
+      @program = Program.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def program_params
+      program.require(:program).permit(:exchange_rate, :price_discount, :price_full, :price_full_eur, :price_discount_eur, :program_name_en, :program_name_hu, :event_date)
+    end
+
 end

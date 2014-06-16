@@ -1,4 +1,5 @@
 class ChildrenController < ApplicationController
+  before_action :set_child, only: [:show, :edit, :update, :destroy]
   # GET /children
   # GET /children.json
   def index
@@ -12,7 +13,6 @@ class ChildrenController < ApplicationController
   # GET /children/1
   # GET /children/1.json
   def show
-    @child = Child.find(params[:id])
     @user = Person.find(user_id => User.id)
     respond_to do |format|
       format.html # show.html.erb
@@ -32,13 +32,13 @@ class ChildrenController < ApplicationController
 
   # GET /children/1/edit
   def edit
-    @child = Child.find(params[:id])
+
   end
 
   # POST /children
   # POST /children.json
   def create
-    @child = Child.new(params[:child])
+    @child = Child.new(child_params)
 
     respond_to do |format|
       if @child.save
@@ -54,10 +54,9 @@ class ChildrenController < ApplicationController
   # PUT /children/1
   # PUT /children/1.json
   def update
-    @child = Child.find(params[:id])
 
     respond_to do |format|
-      if @child.update_attributes(params[:child])
+      if @child.update(child_params)
         format.html { redirect_to @child, notice: 'Child was successfully updated.' }
         format.json { head :no_content }
       else
@@ -70,7 +69,6 @@ class ChildrenController < ApplicationController
   # DELETE /children/1
   # DELETE /children/1.json
   def destroy
-    @child = Child.find(params[:id])
     @child.destroy
 
     respond_to do |format|
@@ -78,4 +76,15 @@ class ChildrenController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_child
+      @child = Children.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def child_params
+      params.require(:child).permit(:age, :child_care, :language, :name, :user_id)
+    end
 end
