@@ -1,18 +1,18 @@
---- 
-hu: 
-  activerecord: 
-    attributes: 
-      child: 
+---
+hu:
+  activerecord:
+    attributes:
+      child:
         age: Életkor
         child_care: Gyermekfelügyelet
         language: "Beszélt nyelv"
         name: Név
-      meal: 
+      meal:
         food_type: Húsos/vegetáriánus
         meal_date: "Étkezés ideje"
         meal_id: "Étkezés id"
         meal_type: "Étkezés típusa"
-      program: 
+      program:
         event_date: "Esemény dátuma"
         price_discount: "Kedvezményes ár Forintban"
         price_discount_eur: "Kedvezményes ár Euroban"
@@ -22,7 +22,7 @@ hu:
         program_name_en: Program
         program_name_hu: Program
       registration: ~
-      travel: 
+      travel:
         arrival: "Busz Becskére"
         arrival_seats: "Ülőhelyek száma"
         bus_trip: "Busszal utazok"
@@ -30,7 +30,7 @@ hu:
         departure_seats: "Ülőhelyek száma"
         flight_date: "Repülő érkezési ideje"
         flight_number: Járatszám
-      user: 
+      user:
         email_address: E-mail
         first_name: Keresztnév
         home_country: Ország
@@ -41,9 +41,9 @@ hu:
         price_method: "Fizetés ideje"
         reference_number: "Regisztrációs szám"
         second_name: Vezetéknév
-    controllers: 
-      static_pages: 
-        guru_yoga: 
+    controllers:
+      static_pages:
+        guru_yoga:
           chapter_title: "A Bizalom Útja: A tanító erőterének és tulajdonságainak megvalósítása"
           menu_title: Gurujóga
           par_1: "Gyors belső fejlődésben lesz részünk, ha a felismerésben időzünk és a buddhaformákon meditálunk. De tapasztalat szerint akkor lesz a legerősebb a hatása a megvalósításra megnyitó meditációknak, ha a tanító lelkesítő képessége találkozik a tanítvány nyitottságával. Ezt nevezik a Gyémánt Úton a Bizalom Útjának. Ez felébreszti bennünk azt a képességet, hogy minden élethelyzetben felismerjük a tudat tulajdonságait. Ha egy megvalósított láma szemén át nézünk, akkor megjelenik bennünk az a bizonyosság, hogy a megvilágosodás lehetősége ott rejlik mindenkiben. Ez a tapasztalat annyira mély benyomást kelt bennünk, hogy többé nem felejtjük el, és mindig velünk marad. A kagyü átadás fő célja, hogy a meditációban és a mindennapi életben folyamatosan tudatában legyünk a tapasztalónak. Ehhez mindenképp szükségünk van arra, hogy egy tanító végigkísérjen minket az úton. A nemrég elhunyt kiváló Lopön Csecsu rinpocse mondta gyakran, hogy főleg azzal a tanítóval kell megtartani a kapcsolatot, aki először mutatta meg nekünk a tudat természetét. Különben leáll a fejlődésünk."
@@ -56,7 +56,7 @@ hu:
           par_8: ""
           title: Gurujóga
           title_book: "Láma Ole Nydahl Ahogy a dolgok vannak című könyvéből"
-        home: 
+        home:
           date: "Időpont: 2014 július 22-27."
           description: "Kérjük, szervezési okokból mindenképpen regisztrálj, akkor is, ha kísérőként érkezel, és nem kívánsz részt venni a programokon!"
           location: "Helyszín: Becske, a Gyémánt Út Buddhista Közösség elvonulási központja"
@@ -64,8 +64,8 @@ hu:
           subtitle: "2. Karmapa (Karma Paksi) beavatás és tanítások"
           teachers: "Utazótanítók - Rob Sok és Phil Carlisle"
           title: "Tengeren túli nyári kurzus"
-        information: 
-          accomodation: 
+        information:
+          accomodation:
             link_1: "faradtvandor, "
             link_2: "towellnesshotel, "
             link_3: "tengerszempanzio, "
@@ -74,13 +74,13 @@ hu:
             paragraph_2: "Lakókocsival külön helyszínen, a Sztúpa alatti területen lesz mód parkolni (víz- és áramellátási lehetőséget nem tudunk külön biztosítani)."
             paragraph_3: "Becskéhez közelebb eső panziók és szálláshelyek: "
             title: Szálláslehetőségek
-          blood_donation: 
+          blood_donation:
             description: "Időpont: 2013. július 25., 9:00-15:00-ig. Személyi igazolvány, lakcím- és tb-kártya szükséges hozzá. EU-országokból érkezők szintén adhatnak vért (személyi azonosságot igazoló okmány szükséges)."
             title: "Véradást is szervezünk a kurzus alatt"
-          child_care: 
+          child_care:
             description: "A kurzus programjai alatt biztosítjuk a szülők bevonásával a gyermekek felügyeletét. Külön táborhelyet is fenntartunk a játszótér környékén a családoknak. Kérjük, hogy a gyermekeket is regisztráljátok!! "
             title: Gyermekfelügyelet
-          food: 
+          food:
             info: "A konyha glutén- és laktóz- mentesen főz idén is. Kérhetsz étkezést a teljes kurzusra vagy csak bizonyos napokra."
             info_3_meals: "Javasoljuk, vedd igénybe a napi háromszori regisztrált étkezést."
             pay_there_1_1: "július 23-26."
@@ -101,19 +101,19 @@ hu:
             prepayed_three_time_4_3: "10 500 Ft"
             prepayed_title: "Július 4-ig befizetve"
             title: Étkezés
-          further_information: 
+          further_information:
             address: "1074 Budapest, Huszár utca 7-9."
             community: "Gyémánt Út Buddhista Közösség"
             email: "e-mail: becske@buddhizmusma.hu"
             phone: "információs telefon: +3620-4946-660"
             title: "További információk"
-          how_to_get_there: 
+          how_to_get_there:
             address: "Cím: Becske, Petőfi Sándor utca 47."
-            by_car: 
+            by_car:
               paragraph_1: "Az M3-as autópályán a 39. km-nél található kijáratig (Bag, Tura, Aszód felé). Aszódon keresztül Balassagyarmat irányában: Aszód, Iklad, Galgagyörk, Püspökhatvan, Acsa, Galgaguta, Nógrádkövesd, Becske."
               paragraph_2: "Az M2-es útról „Rád, Vácduka” kijáratnál kell lehajtani (38-39 km között) és Rád felé kell fordulni a kereszteződésben, majd Acsán át Balassagyarmat felé."
               title: Autóval
-            by_train: 
+            by_train:
               paragraph_1: "MÁV menetrend- info: +36 40 49 49 49 és "
               paragraph_2: "A vonat Budapest-Keleti pályaudvarról indul, Aszódon átszállással, Becske - alsón kell leszállni."
               paragraph_3: "Shuttle-buszt biztosítunk a vasútállomás és a táborhely között. 500 Ft / út. Fizetni a helyszínen tudsz."
@@ -121,7 +121,7 @@ hu:
             gps_coordinates: "GPS koordináták: N 47.918729; E 19.382093; vagy 47°55'7.42\\'N; 19°22'55.90\\'E"
             map: "Térkép linkje"
             map_link: "http://maps.google.hu/maps/empw?url=http:%2F%2Fmaps.google.hu%2Fmaps%2Fms%3Fmsid%3D206542884478124380009.0004bad02bbd01cace4cd%26msa%3D0%26ie%3DUTF8%26ll%3D47.706862,19.227672%26spn%3D0.413073,0.301613%26t%3Dm%26vpsrc%3D6%26output%3Dembed&hl=hu&gl=hu"
-            rented_bus: 
+            rented_bus:
               paragraph_1: "Buszokat indítunk a Huszár utcai centrumtól Becskére és vissza."
               paragraph_2: "Budapest-Becske: 2013-07-09 11:00 és 15:00"
               paragraph_3: "Becske-Budapest: 2013-07-14 17:00"
@@ -129,13 +129,13 @@ hu:
               title: "Bérelt autóbusszal"
             title: Megközelítés
           menu_title: Információ
-          parking: 
+          parking:
             paragraph_1: "Csak az őrzött parkolóban, a Sztúpával szembeni területen lehetséges (parkolási díj: 1000 Ft az egész hétre)."
             paragraph_2: "A kurzus területre sem autóval, sem motorral behajtani nem lehet a várható nagy létszám miatt. Kérjük az együttmûködéseteket!"
             paragraph_3: "Kérjük, hogy a Petőfi Sándor utcában ne lépjétek át a megengedett 30 km/h sebességet."
             paragraph_4: "Parkolóból való kihajtás a behajtással szemközti oldalon, a Mikszáth utca felé."
             title: Parkolás
-          payment: 
+          payment:
             bank_account_comment: "A közleménybe kérjük, írd be: kurzus/étkezés/busz díja."
             bank_account_forint: "Forint számla"
             bank_account_forint_address: "Unicredit Bank Zrt. - 10918001- 00000017- 40990039"
@@ -149,7 +149,7 @@ hu:
             paragraph_1: "személyesen a budapesti központban minden nap 18–21 óra között"
             paragraph_2: "vagy átutalással az alábbi számlaszámokon"
             title: Befizetés
-          prices: 
+          prices:
             child: "0-14 éves korig"
             child_1_1: Ingyenes
             discount: "Kedvezményes ár"
@@ -171,7 +171,7 @@ hu:
             full_2_2: "20 000 Ft"
             full_2_3: "4000 Ft / nap"
             title: Kurzusdíj
-          usefull_information: 
+          usefull_information:
             paragraph_0: "Kutyát és egyéb háziállatot a kurzus területére tilos behozni!"
             paragraph_1: "Amit érdemes magunkkal hozni: sátor, fólia, ragasztó, hálózsák, ülőpárna, gumicsizma, esőkabát, elemlámpa, evőeszköz, tányér, pohár, kullancsriasztó, naptej, házipatika."
             paragraph_2: "A speciális étrenddel kapcsolatos külön kéréseket a konyha nem tudja kiszolgálni és ételek egyéni tárolására sincs lehetőség"
@@ -183,12 +183,12 @@ hu:
             paragraph_4_4: "A kurzus területén a vezetékes víz nem iható."
             paragraph_4_5: "Szelektív hulladékgyûjtésre"
             title: "Hasznos információk"
-        karma_paksi: 
+        karma_paksi:
           description: "A kelet-tibeti Csilé Caktóból származó 2. Karmapa Karma Paksi igazi csodagyerek volt. Hatéves korára magától megtanult írni és olvasni. Tízévesen elég volt egyszer látnia egy szöveget ahhoz, hogy megjegyezze. Amikor Közép-Tibetbe tartott, hogy további oktatást kapjon, Pomdragpa Szönam Dordzséval találkozott, akinek egy látomásban megjelent az 1. Karmapa Düszum Tyenpa, aki közölte vele, hogy ez a fiú lesz a következő vonaltartó. Így Karma Paksi megkapta a Kagyü átadást. Rövid időn belül ismertté vált különleges képességei miatt - Tibetben, Kínában és Mongóliában egyaránt voltak tanítványai. A Paksi mongol eredetû szó, mestert jelent - e néven vált a 2. Karmapa ismertté, miután a mongol császár magas spirituális pozíciót adományozott neki."
           menu_title: "Karma Paksi"
           subtitle: 1204-1283
           title: "2. Karmapa Karma Paksi"
-        programs: 
+        programs:
           description: "Tervezett program"
           fifth_program: "Július 26. Szombat 	- 10:00 közös meditáció - 15:00 tanítás - 20:00 tanítás"
           first_program: "Július 22. Kedd 	- 15:00-tól 24 órás 16. Karmapa meditáció"
@@ -198,7 +198,7 @@ hu:
           sixth_program: "Július 27. Vasárnap 	- 10:00 közös meditáció - 15:00 tanítás "
           third_program: "Július 24. Csütörtök 	- 10:00 közös meditáció - 15:00 tanítás - 20:00 tanítás"
           title: Programok
-        traveling_teachers: 
+        traveling_teachers:
           description: "Idén három tapasztalt Gyémánt Út tanító fogja tartani a kurzust Becskén"
           menu_title: "A tanítók:"
           par_1: "Phil Carlisle Phil Carlise először 1995-ben találkozott Lama Ole-val egy nyilvános tanításon. A Láma laza stílusa és nyugati megközelítése inspirálta Phil-t, hogy elkezdje a Gyémánt Út Buddhizmus gyakorlását. Mint világi gyakorló, Phil sikeres multimédia és web dizájner vállalkozásában dolgozik, beépítve a Buddhista gyakorlást a mindennapi modern életbe és munkába. 2007-ben Lama Ole kérte meg, hogy kezdje el tanítani a Gyémánt Út Buddhizmust, és terjessze ezeket az értékes tanításokat, olyan átláthatóan, amennyire csak lehetséges az idealista és tiszta gondolkodású nyugati emberek számára."
@@ -206,7 +206,7 @@ hu:
           par_3: "1994-ben vet menedéket Lama Ole-tól Groningenben (Hollandiában). 2003-óta utazótanító. Néhány év érdekes egyetemi kutatói év után 2009-ben egy olaj és gázipari szolgáltató céget hozott létre Lithicon néven. Azóta a cégben a kutatási vonalon dolgozik, és az adatelemzőket vezeti. 1999-től Canberrában (Ausztrália) él feleségével Maike Brill-el. Egyéb érdeklődési területei között különböző kreatív tevékenységek szerepelnek, mint a festés, az írás, de foglalkozik üzleti fejlesztéssel, coachinggal is."
           subtitle: "Becske kurzus 2014"
           title: "A tanítők bemutatkozása:"
-    models: 
+    models:
       child: Gyermek
       meal: Étkezés
       program: Program
@@ -222,8 +222,8 @@ hu:
   children: Gyerekek
   currency: Forint
   currency_selector: "Pénznem választó"
-  date: 
-    abbr_day_names: 
+  date:
+    abbr_day_names:
       - v.
       - h.
       - k.
@@ -231,7 +231,7 @@ hu:
       - cs.
       - p.
       - szo.
-    abbr_month_names: 
+    abbr_month_names:
       - ~
       - jan.
       - febr.
@@ -245,7 +245,7 @@ hu:
       - okt.
       - nov.
       - dec.
-    day_names: 
+    day_names:
       - vasárnap
       - hétfő
       - kedd
@@ -253,11 +253,11 @@ hu:
       - csütörtök
       - péntek
       - szombat
-    formats: 
+    formats:
       default: "%Y.%m.%d."
       long: "%Y. %b %e. (%A)"
       short: "%b %e."
-    month_names: 
+    month_names:
       - ~
       - január
       - február
@@ -271,47 +271,47 @@ hu:
       - október
       - november
       - december
-    order: 
+    order:
       - !ruby/symbol year
       - !ruby/symbol month
       - !ruby/symbol day
-  datetime: 
-    distance_in_words: 
-      about_x_hours: 
+  datetime:
+    distance_in_words:
+      about_x_hours:
         one: "kb 1 óra"
         other: "kb %{count} óra"
-      about_x_months: 
+      about_x_months:
         one: "kb 1 hónap"
         other: "kb %{count} hónap"
-      about_x_years: 
+      about_x_years:
         one: "kb 1 év"
         other: "kb %{count} év"
-      almost_x_years: 
+      almost_x_years:
         one: "majdnem 1 év"
         other: "majdnem %{count} év"
       half_a_minute: "fél perc"
-      less_than_x_minutes: 
+      less_than_x_minutes:
         one: "kevesebb, mint 1 perc"
         other: "kevesebb, mint %{count} perc"
-      less_than_x_seconds: 
+      less_than_x_seconds:
         one: "kevesebb, mint 1 másodperc"
         other: "kevesebb, mint %{count} másodperc"
-      over_x_years: 
+      over_x_years:
         one: "több, mint 1 év"
         other: "több, mint %{count} év"
-      x_days: 
+      x_days:
         one: "1 nap"
         other: "%{count} nap"
-      x_minutes: 
+      x_minutes:
         one: "1 perc"
         other: "%{count} perc"
-      x_months: 
+      x_months:
         one: "1 hónap"
         other: "%{count} hónap"
-      x_seconds: 
+      x_seconds:
         one: "1 másodperc"
         other: "%{count} másodperc"
-    prompts: 
+    prompts:
       day: Nap
       hour: Óra
       minute: Perc
@@ -326,9 +326,9 @@ hu:
   email_body_5: programok
   email_dear: Kedves
   email_warning: "Kérlek győződj meg róla, hogy az email címed helyes."
-  errors: 
+  errors:
     format: "%{attribute} %{message}"
-    messages: 
+    messages:
       accepted: "nincs elfogadva"
       blank: "nincs megadva"
       confirmation: "nem egyezik"
@@ -350,38 +350,35 @@ hu:
       too_long: "túl hosszú (nem lehet több %{count} karakternél)"
       too_short: "túl rövid (legalább %{count} karakter kell legyen)"
       wrong_length: "nem megfelelő hosszúságú (%{count} karakter szükséges)"
-    template: 
+    template:
       body: "Problémás mezők:"
-      header: 
+      header:
         one: "1 hiba miatt nem menthető a következő: %{model}"
         other: "%{count} hiba miatt nem menthető a következő: %{model}"
   escort_explain: "Ha csak kísérőként veszel részt a kurzuson, válaszd ki, mely napokon fogsz a területen tartózkodni."
   escorter: Kísérő
-  fifth_day_meal_type: 
+  fifth_day_meal_type:
     0: "Nem kérek"
-    1: "Csak ebéd"
-    3: "Háromszori étkezés"
-  first_day_meal_type: 
+    3: "Kérek"
+  first_day_meal_type:
     0: "Nem kérek"
-    1: "Csak ebéd"
-    3: "Háromszori étkezés"
+    3: "Kérek"
   flight_description: "Ha a géped július 9 13:00 után érkezik, megpróbálunk transzportot szervezni közvetlenül Becskére. Az ezzel kapcsolatos információkat emailben elküldjük. Ha előtte érkezel 9-én, még beregisztrálhatsz a délutáni buszra."
-  food_type: 
+  food_type:
     meat: Húsos
     vegetarian: Vegetáriánus
-  fourth_day_meal_type: 
+  fourth_day_meal_type:
     0: "Nem kérek"
-    1: "Csak ebéd"
-    3: "Háromszori étkezés"
+    3: "Kérek"
   full_course_participation: "Az egész kurzuson szeretnék részt venni."
-  helpers: 
-    select: 
+  helpers:
+    select:
       prompt: Válasszon
-    submit: 
+    submit:
       create: Regisztráció
       submit: "%{model} Mentése"
       update: "%{model} Módosítása"
-  home_country: 
+  home_country:
     argentina: Argentína
     australia: Ausztrália
     austria: Ausztria
@@ -459,9 +456,9 @@ hu:
   meat: húsos
   name: Név
   no_food: nincs
-  number: 
-    currency: 
-      format: 
+  number:
+    currency:
+      format:
         delimiter: ""
         format: "%n %u"
         precision: 0
@@ -469,44 +466,44 @@ hu:
         significant: true
         strip_insignificant_zeros: true
         unit: Ft
-    format: 
+    format:
       delimiter: " "
       precision: 2
       separator: ","
       significant: true
       strip_insignificant_zeros: true
-    human: 
-      decimal_units: 
+    human:
+      decimal_units:
         format: "%n %u"
-        units: 
+        units:
           billion: Milliárd
           million: Millió
           quadrillion: Kvadrillió
           thousand: Ezer
           trillion: Trillió
           unit: ""
-      format: 
+      format:
         delimiter: ""
         precision: 1
         significant: true
         strip_insignificant_zeros: true
-      storage_units: 
+      storage_units:
         format: "%n %u"
-        units: 
-          byte: 
+        units:
+          byte:
             one: bájt
             other: bájt
           gb: GB
           kb: KB
           mb: MB
           tb: TB
-    percentage: 
-      format: 
+    percentage:
+      format:
         delimiter: ""
-    precision: 
-      format: 
+    precision:
+      format:
         delimiter: ""
-  price_category: 
+  price_category:
     discount: kedvezményes
     escort: kísérő
     full: teljes
@@ -514,41 +511,37 @@ hu:
   price_category_explanation_escort: "Nem veszek részt a programokon, csak kísérő vagyok."
   price_category_explanation_full: "A teljes kurzuson résztveszek."
   price_category_title: Árkategória
-  price_method: 
-    ~: " -- válassz --"
-    after: "Június 20-tól"
+  price_method:
+    before: "Július 4-ig"
+    after: "Július 4-től"
   price_method_warning: "Ne felejtsd el kiválasztani, mikor akarsz fizetni."
   read_the_information_pages: "Regisztrációhoz kérem olvassa el az Információk és Programok oldalakat!"
   registration: Regisztráció
   registrations: "Program regisztráció"
   remove_child: "Gyerek adatainak eltávolítása"
   remove_meal: "Étkezés eltávolítása"
-  second_day_meal_type: 
+  second_day_meal_type:
     0: "Nem kérek"
-    1: "Csak ebéd"
-    3: "Háromszori étkezés"
-  seventh_day_meal_type: 
+    3: "Kérek"
+  seventh_day_meal_type:
     0: "Nem kérek"
-    1: "Csak ebéd"
-    3: "Háromszori étkezés"
+    3: "Kérek"
   sitename: "Becskei Gurujóga Kurzus Regisztráció 2013"
-  sixth_day_meal_type: 
+  sixth_day_meal_type:
     0: "Nem kérek"
-    1: "Csak ebéd"
-    3: "Háromszori étkezés"
-  support: 
-    array: 
+    3: "Kérek"
+  support:
+    array:
       last_word_connector: " és "
       two_words_connector: " és "
       words_connector: ", "
-  third_day_meal_type: 
+  third_day_meal_type:
     0: "Nem kérek"
-    1: "Csak ebéd"
-    3: "Háromszori étkezés"
+    3: "Kérek"
   three_time: "teljes étkezés"
-  time: 
+  time:
     am: de.
-    formats: 
+    formats:
       default: "%Y. %b %e., %H:%M"
       long: "%Y. %B %e. %H:%M"
       short: "%Y. %b %e. %H:%M"

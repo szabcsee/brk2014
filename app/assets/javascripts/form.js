@@ -2,9 +2,9 @@ $(document).ready(function(){
 	$("#escort_fields").hide();
 	$("input:checkbox").prop("checked", false);
 	$("#user_price_method").val("");
-	cat = '';
-	pricecat = '';
-	lang = $("#form_language").val();
+	var cat = '';
+	var pricecat = '';
+	var lang = $("#form_language").val();
 	$("#currency_selector").val(lang);
 	$(".meal_price").val('0');
 	$("#forint").hide();
@@ -61,7 +61,7 @@ $(document).ready(function(){
 						alert('Válaszd ki a fizetés módját.');
 					}
 					if ($("#form_language").val() == "en"){
-						alert('Choose price method.');	
+						alert('Choose price method.');
 					}
 					$(this).prop('checked', false);
 				}
@@ -79,7 +79,7 @@ $(document).ready(function(){
 				alert('Válaszd ki az árkategóriát.');
 			}
 			if ($("#form_language").val() == "en"){
-				alert('Choose price category.');	
+				alert('Choose price category.');
 			}
 			$(this).prop('checked', false);
 		}
@@ -95,7 +95,7 @@ $(document).ready(function(){
 	        	alert('Válaszd ki a fizetés módját');
 	        	}
 	       	if ($("#form_language").val() == "en"){
-	        	alert('Choose payment method');	
+	        	alert('Choose payment method');
 	        	}
 			$(this).prop('checked', false);
 		}
@@ -110,7 +110,7 @@ $(document).ready(function(){
 	        	alert('Válassz árkategóriát');
 	        	}
 	       	if ($("#form_language").val() == "en"){
-	        	alert('Choose price category');	
+	        	alert('Choose price category');
 	        	}
 			$(this).prop('checked', false);
 		}
@@ -135,13 +135,6 @@ $(document).ready(function(){
    		calculateTotal();
 	});
 
-	$(".bus_trip").click(function(){
-		calculateTotal();
-	});
-	$(".seats").click(function(){
-		calculateTotal();
-	});
-
 	function calculateTotal() {
 		price = 0;
 
@@ -151,135 +144,87 @@ $(document).ready(function(){
 		        	price = price + parseFloat($(this).val());
 		        }
 		        if (lang == "en"){
-		        	price = price + 3.5;	
+		        	price = price + 3.5;
 		        }
         	}
         });
 
         $(".meal_price").each(function()
-        {	
+        {
         	if($(this).is(':visible')){
         		if ($(this).hasClass("first_day"))
         		{
         			if (cat == "after")
         			{
-	        			if ($(this).val() == "1"){
+	        			if ($(this).val() == "3"){
 	        				if (lang == "hu"){
 	        					price = price + 1200;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 4;	
-	        				}
-	        			}
-	        			if ($(this).val() == "3"){
-	        				if (lang == "hu"){
-	        					price = price + 2400;
-	        				}
-	        				if (lang == "en"){
-	        					price = price + 8;	
+	        					price = price + 4;
 	        				}
 	        			}
         			}
         			if (cat == "before")
         			{
-        				if ($(this).val() == "1"){
+	        			if ($(this).val() == "3"){
 	        				if (lang == "hu"){
 	        					price = price + 800;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 3;	
+	        					price = price + 3;
 	        				}
 	        			}
-	        			if ($(this).val() == "3"){
-	        				if (lang == "hu"){
-	        					price = price + 1600;
-	        				}
-	        				if (lang == "en"){
-	        					price = price + 6;	
-	        				}
-	        			}	
         			}
         		}
-        		else if ($(this).hasClass("seventh_day"))
+        		else if ($(this).hasClass("sixth_day"))
         		{
         			if (cat == "after")
         			{
-	        			if ($(this).val() == "1"){
-	        				if (lang == "hu"){
-	        					price = price + 1200;
-	        				}
-	        				if (lang == "en"){
-	        					price = price + 4;	
-	        				}
-	        			}
 	        			if ($(this).val() == "3"){
 	        				if (lang == "hu"){
 	        					price = price + 1800;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 6;	
+	        					price = price + 6;
 	        				}
 	        			}
         			}
         			if (cat == "before")
         			{
-        				if ($(this).val() == "1"){
-	        				if (lang == "hu"){
-	        					price = price + 800;
-	        				}
-	        				if (lang == "en"){
-	        					price = price + 3;	
-	        				}
-	        			}
 	        			if ($(this).val() == "3"){
 	        				if (lang == "hu"){
 	        					price = price + 1300;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 5;	
+	        					price = price + 5;
 	        				}
-	        			}	
+	        			}
         			}
         		}
         		else
         		{
         			if (cat == "after")
         			{
-	        			if ($(this).val() == "1"){
-	        				if (lang == "hu"){
-	        					price = price + 1200;
-	        				}
-	        				if (lang == "en"){
-	        					price = price + 4;	
-	        				}
-	        			}
 	        			if ($(this).val() == "3"){
 	        				if (lang == "hu"){
 	        					price = price + 3000;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 10;	
+	        					price = price + 10;
 	        				}
 	        			}
         			}
         			if (cat == "before")
         			{
-        				if ($(this).val() == "1"){
-	        				if (lang == "hu"){
-	        					price = price + 800;
-	        				}
-	        				if (lang == "en"){
-	        					price = price + 3;	
-	        				}
-	        			}
 	        			if ($(this).val() == "3"){
 	        				if (lang == "hu"){
 	        					price = price + 2100;
 	        				}
 	        				if (lang == "en"){
-	        					price = price + 8;	
+	        					price = price + 8;
 	        				}
-	        			}	
+	        			}
         			}
         		}
         	}
@@ -290,7 +235,7 @@ $(document).ready(function(){
 	        				price = price + 20000;
 	        			}
 	        			if (lang == "en"){
-	        				price = price + 70;	
+	        				price = price + 70;
 	        			}
 				}
 				if (cat == 'before' && pricecat == 'full'){
@@ -298,7 +243,7 @@ $(document).ready(function(){
 	        				price = price + 15000;
 	        			}
 	        			if (lang == "en"){
-	        				price = price + 50;	
+	        				price = price + 50;
 	        			}
 				}
 				else if (pricecat == 'discount'){
@@ -306,29 +251,30 @@ $(document).ready(function(){
 	        				price = price + 10000;
 	        			}
 	        			if (lang == "en"){
-	        				price = price + 35;	
+	        				price = price + 35;
 	        			}
 	        	}
 		}
 		else {
 		$(".program_participation").each(function(){
+				debugger;
 				if($(this).is(':checked'))
 				{
 						if (pricecat == 'full'){
 							if (lang == "hu"){
-	        				price = price + parseFloat($(this).attr('data-full-price'));
+	        					price = price + parseFloat($(this).attr('data-full-price'));
 	        				}
 	        				if (lang == "en"){
-	        				price = price + parseFloat($(this).attr('data-full-price-eur'));	
+	        					price = price + parseFloat($(this).attr('data-full-price-eur'));
 	        				}
 						}
 						else if (pricecat == 'discount')
-						{	
+						{
 							if (lang == "hu"){
-	        				price = price + parseFloat($(this).attr('data-discount-price'));
+	        					price = price + parseFloat($(this).attr('data-discount-price'));
 	        				}
 	        				if (lang == "en"){
-	        				price = price + parseFloat($(this).attr('data-discount-price-eur'));	
+	        					price = price + parseFloat($(this).attr('data-discount-price-eur'));
 	        				}
 						}
 						else if (pricecat == 'escort')
@@ -337,17 +283,6 @@ $(document).ready(function(){
 						}
 				}
 		});
-		}
-
-		if($(".bus_trip").is(':checked')){
-			$(".seats").each(function(){
-				if (lang == "hu"){
-	        				price = price + parseFloat($(this).val()) * 2000;
-	        			}
-	        			if (lang == "en"){
-	        				price = price + parseFloat($(this).val()) * 7;	
-	        			}
-			});
 		}
         $("#total_price").text(price);
         $(".price_container").val(price);

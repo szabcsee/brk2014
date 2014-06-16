@@ -89,10 +89,6 @@
 							<td> <%= meal.sixth_day %> </td>
 							<td> <%= show_meal_type(meal.sixth_day_meal_type) %> </td>
 						</tr>
-						<tr>
-							<td> <%= meal.seventh_day %> </td>
-							<td> <%= show_meal_type(meal.seventh_day_meal_type) %> </td>
-						</tr>
 
 						<tr>
 							<td> <%= Meal.human_attribute_name(:food_type) %> </td>
@@ -167,12 +163,12 @@
 								</tr>
 								<tr>
 										<td><%= travel.flight_number %></td>
-										<td><%= l travel.flight_date, :format => :short %></td>							
+										<td><%= l travel.flight_date, :format => :short %></td>
 								</tr>
 							</table>
 							<% end %>
 						<% end %>
-					<% end %>		
+					<% end %>
 					<p>
 						<%= t('email_body_4') %>
 					</p>

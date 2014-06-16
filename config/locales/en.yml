@@ -1,18 +1,18 @@
---- 
-en: 
-  activerecord: 
-    attributes: 
-      child: 
+---
+en:
+  activerecord:
+    attributes:
+      child:
         age: Age
         child_care: "Child care"
         language: "Spoken language"
         name: Name
-      meal: 
+      meal:
         food_type: "Food type"
         meal_date: "Meal date"
         meal_id: "Meal id"
         meal_type: "Meal type"
-      program: 
+      program:
         event_date: "Event date"
         price_discount: "Discount price in Forint"
         price_discount_eur: "Discount price in Euro"
@@ -22,7 +22,7 @@ en:
         program_name_en: Program
         program_name_hu: Program
       registration: ~
-      travel: 
+      travel:
         arrival: "Bus trip to Becske (course)"
         arrival_seats: Seats
         bus_trip: "Travel with Bus"
@@ -30,7 +30,7 @@ en:
         departure_seats: Seats
         flight_date: "Your flight arrives"
         flight_number: "Flight number"
-      user: 
+      user:
         email_address: "Email address"
         first_name: Firstname
         home_country: Country
@@ -41,9 +41,9 @@ en:
         price_method: "Payment period"
         reference_number: "Registration number"
         second_name: Surname
-    controllers: 
-      static_pages: 
-        guru_yoga: 
+    controllers:
+      static_pages:
+        guru_yoga:
           chapter_title: "The way of identification — accomplishing the teacher’s qualities and powerfield"
           menu_title: "Guru Yoga"
           par_1: "Resting in the states of bliss and space inseparable, engendered by the meditations on buddha forms and their mantras, produces the finest of spiritual qualities. Experience shows that experiencing the ordinary on the highest level happens when a teacher’s ability to inspire and a student’s idealistic openness meet. Their union vastly increases the effectiveness of any meditation. Known as Guru Yoga or Lami Naljor, this method was singled out by the 16th Gyalwa Karmapa and given to my wife Hannah and myself as the main practice for our worldwide Diamond Way centers. Easy to approach and enabling people to recognize and learn from meaningful qualities in all of life’s situations, it is an exceedingly skillful tool for developing identification and trust."
@@ -56,7 +56,7 @@ en:
           par_8: "In the West and today the teacher retains such vital importance to Buddha’s Diamond Way. His blessing shows the world to be a dream that can be mastered. His or hers spontaneous and effortless activity convinces one of basic unity. One recognizes that the experiencer, the object experienced, and the act of experiencing must all be interdependent, inseparable, and parts of the same totality. As with the other means used in meditation, the formless methods of experiencing mind’s space insight and the complete tool of identification with and dissolving with buddha forms, a natural state of knowing they are aspects of one’s trusted lama arises and one realizes the Great Seal of ultimate meaning. Then it becomes less important which of the ways one uses to get to this understanding. Its highest view contains everything and is unique. It has an unshakeable foundation: the inherent buddha nature of all beings, a true way to experience a meaningful life using the finest of methods for absorption and human growth, and above all, the ultimate goal of full enlightenment. Every concept pales in comparison with such total awareness. "
           title: "Guru Yoga"
           title_book: "From the book The Way Things Are by Lama Ole Nydahl"
-        home: 
+        home:
           date: "Date: 22nd to the 27th of July, 2014"
           description: "To help us with the organisation, please register even if you only come as a visitor accompanying family or friends and do not wish to participate in the programme."
           location: "Place: Becske, retreat centre of the Diamond Way Buddhist Community"
@@ -64,8 +64,8 @@ en:
           subtitle: "2. Karmapa (Karma Pakshi) empowerment and teachings"
           teachers: "Travel teachers - Rob Sok and Phil Carlisle"
           title: "Overseas summer course"
-        information: 
-          accomodation: 
+        information:
+          accomodation:
             link_1: "faradtvandor, "
             link_2: "towellnesshotel, "
             link_3: "tengerszempanzio, "
@@ -74,13 +74,13 @@ en:
             paragraph_2: "In your own caravan: you may park in a separate area under the Stupa (we cannot supply water and electricity)."
             paragraph_3: "Pensions and other accommodation around Becske: "
             title: Accomodation
-          blood_donation: 
+          blood_donation:
             description: "Date: from 9 am to 3 pm on 23rd-26th July, 2014. If you are an EU citizen and wish to donate, you may do so. You need some proof of identity (passport or ID card) for this."
             title: "Blood donation during the course:"
-          child_care: 
+          child_care:
             description: "Child care is organised during the course programmes with the help of parents. We also reserve a tenting area near the playground for families. Please register your children as well."
             title: "Child care"
-          food: 
+          food:
             info: "The kitchen will cook gluten- and lactose-free this year as well. You may ask for meals for the whole course or only for certain days."
             info_3_meals: "We recommend that you register for the ‘three meals a day’ option."
             pay_there_1_1: "23rd-26th July"
@@ -101,19 +101,19 @@ en:
             prepayed_three_time_4_3: "43 Euros"
             prepayed_title: "Paid until 4th July"
             title: Meals
-          further_information: 
+          further_information:
             address: "H-1074 Budapest, Huszár utca 7-9."
             community: "Diamond Way Buddhist Community"
             email: "e-mail: becske@buddhizmusma.hu"
             phone: "Info phone: +3620-4946-660"
             title: "Further information:"
-          how_to_get_there: 
+          how_to_get_there:
             address: "Address: Becske, Petőfi Sándor utca 47."
-            by_car: 
+            by_car:
               paragraph_1: "Please be aware that you have to buy 10 days Vignette at the border if you use motorways in Hungary, all roads which are marked with M+number are payable (except (M2 and M0). Also drive carefully approx 30 kms away from Becske on, because the road are in very bad shape with lots of deep holes on it. On motorway M3, take the exit at km-stone 39 (towards Bag, Tura, Aszód). Drive through Aszód following the direction of Balassagyarmat: Aszód, Iklad, Galgagyörk, Püspökhatvan, Acsa, Galgaguta, Nógrádkövesd, Becske."
               paragraph_2: "On motorway M2, take exit ‘Rád, Vácduka’ (between km-stones 38 and 39) and turn towards ‘Rád’ at the crossroads, then – when driving through Acsa – turn towards Balassagyarmat."
               title: "By car"
-            by_train: 
+            by_train:
               paragraph_1: "Timetable -MÁV (Hungarian Railways)- info: +36 40 49 49 49 and "
               paragraph_2: "The train leaves from Keleti pályaudvar. You need to change in Aszód and get off the train in Becske - alsó."
               paragraph_3: "Shuttle service is available between the train station and the course area for 2 Euros / ride. You can pay for this on the site."
@@ -121,7 +121,7 @@ en:
             gps_coordinates: "GPS coordinates: N 47.918729; E 19.382093; or 47°55'7.42\\'N; 19°22'55.90\\'E"
             map: "Map link"
             map_link: "http://maps.google.hu/maps/empw?url=http:%2F%2Fmaps.google.hu%2Fmaps%2Fms%3Fmsid%3D206542884478124380009.0004bad02bbd01cace4cd%26msa%3D0%26ie%3DUTF8%26ll%3D47.706862,19.227672%26spn%3D0.413073,0.301613%26t%3Dm%26vpsrc%3D6%26output%3Dembed&hl=en&gl=en"
-            rented_bus: 
+            rented_bus:
               paragraph_1: "Buses run between our Budapest Centre in Huszár utca and Becske and back."
               paragraph_2: "Budapest-Becske: 09.07.2013. 11:00 és 15:00"
               paragraph_3: "Becske-Budapest: 14.07.2013. 17:00"
@@ -129,13 +129,13 @@ en:
               title: "With rented bus"
             title: "How to get there"
           menu_title: Information
-          parking: 
+          parking:
             paragraph_1: "Only in the guarded parking area opposite the Stupa (parking fee: 4 Euros for the whole week)"
             paragraph_2: "No driving into the course area either by car or motorcycle because of the high number of participants. We do count on your cooperation concerning this issue."
             paragraph_3: "The speed limit in Petőfi utca is 30 kms/hr. Please keep the speed limit."
             paragraph_4: "Exit from the parking area is opposite the entrance, in the direction of Mikszáth utca."
             title: Parking
-          payment: 
+          payment:
             bank_account_comment: "In the comments box, please give course/meals/bus fee."
             bank_account_forint: "Forint bank account number"
             bank_account_forint_address: "Unicredit Bank Zrt. - 10918001- 00000017- 40990039"
@@ -149,7 +149,7 @@ en:
             paragraph_1: "personally in the Budapest Centre every day between 6 and 9 pm"
             paragraph_2: "or by bank transfer"
             title: Payment
-          prices: 
+          prices:
             child: "0-14 year-olds"
             child_1_1: Free
             discount: Discount
@@ -170,7 +170,7 @@ en:
             full_2_2: "70 Euros"
             full_2_3: "15 Euros / Day"
             title: "Course fee"
-          usefull_information: 
+          usefull_information:
             paragraph_0: "Please do not bring dogs or other pets into the course."
             paragraph_1: "What to bring with you: tent, plastic sheeting, duck tape, sleeping bag, meditation cushion, rubber boots, raincoat, flashlight, eating utensils, plate, glass, tick repellent, sunscreen, basic medication that you might need."
             paragraph_2: "If you are on a special diet, please bring food for yourself, and as we cannot provide individual food storage, please bring non-perishable food."
@@ -182,12 +182,12 @@ en:
             paragraph_4_4: "Piped water in the course area is not drinking water"
             paragraph_4_5: "Selective rubbish collection"
             title: "Usefull information"
-        karma_paksi: 
+        karma_paksi:
           description: "From Chilay Tsakto in Eastern Tibet, the second Karmapa, Karma Pakshi, was something of a child prodigy. By the age of six, he had taught himself to read and write. At ten, he was displaying a photographic memory for texts. On his way to Central Tibet for further education, he encountered Pomdragpa Sonam Dorje, who had been told by a vision of Dusum Khyenpa, the first Karmapa, that this boy would become the next lineage-holder. Karma Pakshi was persuaded to stay, and received the Kagyu transmission. In time, he became renowned for his powers, and had students throughout Tibet, China and Mongolia."
           menu_title: "Karma Pakshi"
           subtitle: "1204 - 1283"
           title: "Karma Pakshi the second Karmapa"
-        programs: 
+        programs:
           description: "Preliminary schedule"
           fifth_program: "26th July Saturday	- 10 am common meditation - 3 pm teaching - 8 pm teaching"
           first_program: "22nd July Tuesday	- from 3 pm 24-hour meditation - Guru Yoga on the 16th Karmapa"
@@ -197,7 +197,7 @@ en:
           sixth_program: "27th July Sunday 	- 10 am common meditation - 3 pm teaching"
           third_program: "24th July Thursday	- 10 am common meditation - 3 pm teaching - 8 pm teaching"
           title: Programs
-        traveling_teachers: 
+        traveling_teachers:
           description: "This year three experienced Diamond Way teachers hold the course in Becske."
           menu_title: "The teachers"
           par_1: "Phil Carlisle first met Lama Ole Nydahl in 1995 at a public talk. The Lama's relaxed style and western approach inspired Phil to begin practising Diamond Way Buddhism in the Karma Kagyu Lineage of Tibetan Vajrayana Buddhism. As a lay practitioner Phil runs a successful multimedia and web design business integrating his Buddhist practice with living and working in the modern world. In 2007 Lama Ole asked Phil to begin teaching Diamond Way Buddhism and spread these precious teachings as transparently as possible to idealistic clear-thinking Westerners."
@@ -205,7 +205,7 @@ en:
           par_3: "Refuge: 1994 with Ole in Groningen (Netherlands) Teaching since: 2003 Occupation: After being part of some interesting research at universities, in 2009 we set up a company based on this research ('Lithicon'), doing service work for the gas and oil, and since then have worked for Lithicon in the research corner, as well as managing the data analysts. Country: Since 1999 I have lived with my wife Maike Brill in Canberra/Australia. Special interest: many and varied: mostly creative (painting, writing, etc), but also in business development, coaching etc."
           subtitle: "Becske course 2014"
           title: "Introduction of the teachers:"
-    models: 
+    models:
       child: Child
       meal: Meal
       program: Program
@@ -221,8 +221,8 @@ en:
   children: Children
   currency: Euro
   currency_selector: "Currency selector"
-  date: 
-    abbr_day_names: 
+  date:
+    abbr_day_names:
       - Sun
       - Mon
       - Tue
@@ -230,7 +230,7 @@ en:
       - Thu
       - Fri
       - Sat
-    abbr_month_names: 
+    abbr_month_names:
       - ~
       - Jan
       - Feb
@@ -244,7 +244,7 @@ en:
       - Oct
       - Nov
       - Dec
-    day_names: 
+    day_names:
       - Sunday
       - Monday
       - Tuesday
@@ -252,11 +252,11 @@ en:
       - Thursday
       - Friday
       - Saturday
-    formats: 
+    formats:
       default: "%d-%m-%Y"
       long: "%d %B, %Y"
       short: "%d %b"
-    month_names: 
+    month_names:
       - ~
       - January
       - February
@@ -270,47 +270,47 @@ en:
       - October
       - November
       - December
-    order: 
+    order:
       - !ruby/symbol day
       - !ruby/symbol month
       - !ruby/symbol year
-  datetime: 
-    distance_in_words: 
-      about_x_hours: 
+  datetime:
+    distance_in_words:
+      about_x_hours:
         one: "about 1 hour"
         other: "about %{count} hours"
-      about_x_months: 
+      about_x_months:
         one: "about 1 month"
         other: "about %{count} months"
-      about_x_years: 
+      about_x_years:
         one: "about 1 year"
         other: "about %{count} years"
-      almost_x_years: 
+      almost_x_years:
         one: "almost 1 year"
         other: "almost %{count} years"
       half_a_minute: "half a minute"
-      less_than_x_minutes: 
+      less_than_x_minutes:
         one: "less than a minute"
         other: "less than %{count} minutes"
-      less_than_x_seconds: 
+      less_than_x_seconds:
         one: "less than 1 second"
         other: "less than %{count} seconds"
-      over_x_years: 
+      over_x_years:
         one: "over 1 year"
         other: "over %{count} years"
-      x_days: 
+      x_days:
         one: "1 day"
         other: "%{count} days"
-      x_minutes: 
+      x_minutes:
         one: "1 minute"
         other: "%{count} minutes"
-      x_months: 
+      x_months:
         one: "1 month"
         other: "%{count} months"
-      x_seconds: 
+      x_seconds:
         one: "1 second"
         other: "%{count} seconds"
-    prompts: 
+    prompts:
       day: Day
       hour: Hour
       minute: Minute
@@ -325,9 +325,9 @@ en:
   email_body_5: programs
   email_dear: Dear
   email_warning: "Please make sure that your email address is correct."
-  errors: 
+  errors:
     format: "%{attribute} %{message}"
-    messages: 
+    messages:
       accepted: "must be accepted"
       blank: "can't be blank"
       confirmation: "doesn't match confirmation"
@@ -346,47 +346,44 @@ en:
       odd: "must be odd"
       record_invalid: "Validation failed: %{errors}"
       taken: "has already been taken"
-      too_long: 
+      too_long:
         one: "is too long (maximum is 1 character)"
         other: "is too long (maximum is %{count} characters)"
-      too_short: 
+      too_short:
         one: "is too short (minimum is 1 character)"
         other: "is too short (minimum is %{count} characters)"
-      wrong_length: 
+      wrong_length:
         one: "is the wrong length (should be 1 character)"
         other: "is the wrong length (should be %{count} characters)"
-    template: 
+    template:
       body: "There were problems with the following fields:"
-      header: 
+      header:
         one: "1 error prohibited this %{model} from being saved"
         other: "%{count} errors prohibited this %{model} from being saved"
   escort_explain: "If you are just escorting someone but not participating on the programs, choose on which days you are going to be on the course site."
   escorter: Escort
-  fifth_day_meal_type: 
+  fifth_day_meal_type:
     0: None
-    1: Lunch
     3: "Three Meals"
-  first_day_meal_type: 
+  first_day_meal_type:
     0: None
-    1: Lunch
     3: "Three Meals"
   flight_description: "If your flight arrives after 13pm on the 9th of July, we will try to arrange a shuttle from the airport directly to Becske. We will contact you by email regarding this. If your plane arrives in the morning on 9th July, you can register for the afternoon shuttle bus from the Buddhist centre to Becske."
-  food_type: 
+  food_type:
     meat: Meat
     vegetarian: Vegetarian
-  fourth_day_meal_type: 
+  fourth_day_meal_type:
     0: None
-    1: Lunch
     3: "Three Meals"
   full_course_participation: "I would like to participate on the whole course."
-  helpers: 
-    select: 
+  helpers:
+    select:
       prompt: "Please select"
-    submit: 
+    submit:
       create: Create
       submit: "Save %{model}"
       update: "Update %{model}"
-  home_country: 
+  home_country:
     argentina: Argentina
     australia: Australia
     austria: Austria
@@ -464,9 +461,9 @@ en:
   meat: meat
   name: Name
   no_food: "no food"
-  number: 
-    currency: 
-      format: 
+  number:
+    currency:
+      format:
         delimiter: ","
         format: "%u%n"
         precision: 2
@@ -474,44 +471,44 @@ en:
         significant: false
         strip_insignificant_zeros: false
         unit: £
-    format: 
+    format:
       delimiter: ","
       precision: 3
       separator: "."
       significant: false
       strip_insignificant_zeros: false
-    human: 
-      decimal_units: 
+    human:
+      decimal_units:
         format: "%n %u"
-        units: 
+        units:
           billion: Billion
           million: Million
           quadrillion: Quadrillion
           thousand: Thousand
           trillion: Trillion
           unit: ""
-      format: 
+      format:
         delimiter: ""
         precision: 3
         significant: true
         strip_insignificant_zeros: true
-      storage_units: 
+      storage_units:
         format: "%n %u"
-        units: 
-          byte: 
+        units:
+          byte:
             one: Byte
             other: Bytes
           gb: GB
           kb: KB
           mb: MB
           tb: TB
-    percentage: 
-      format: 
+    percentage:
+      format:
         delimiter: ""
-    precision: 
-      format: 
+    precision:
+      format:
         delimiter: ""
-  price_category: 
+  price_category:
     discount: discount
     escort: escort
     full: full
@@ -519,41 +516,37 @@ en:
   price_category_explanation_escort: "I do not participate on the programs, I am only escort of somebody."
   price_category_explanation_full: "I take part in the full course."
   price_category_title: "Price category"
-  price_method: 
-    ~: " -- choose --"
-    after: "from 20th June"
+  price_method:
+    before: "before the 4th of July"
+    after: "after the 4th of July"
   price_method_warning: "Don't forget to choose, when do you want to pay."
   read_the_information_pages: "Please read the Information and Program menus before you start to register!"
   registration: Registration
   registrations: "Program registration"
   remove_child: "Remove child details"
   remove_meal: "Remove Meal"
-  second_day_meal_type: 
+  second_day_meal_type:
     0: None
-    1: Lunch
     3: "Three Meals"
-  seventh_day_meal_type: 
+  seventh_day_meal_type:
     0: None
-    1: Lunch
     3: "Three Meals"
   sitename: "Becske Guru Yoga Course Registration 2013"
-  sixth_day_meal_type: 
+  sixth_day_meal_type:
     0: None
-    1: Lunch
     3: "Three Meals"
-  support: 
-    array: 
+  support:
+    array:
       last_word_connector: ", and "
       two_words_connector: " and "
       words_connector: ", "
-  third_day_meal_type: 
+  third_day_meal_type:
     0: None
-    1: Lunch
     3: "Three Meals"
   three_time: "three times"
-  time: 
+  time:
     am: am
-    formats: 
+    formats:
       default: "%a, %d %b %Y %H:%M:%S %z"
       long: "%d %B, %Y %H:%M"
       short: "%e. %B %Y. %H:%M"
