@@ -108,16 +108,27 @@ $(document).ready(function(){
 		price = 0;
 
 		// Calculate escort prices
-		$(".escort_day").each(function()
-        {	if($(this).is(':checked')){
-	        	if (lang == "hu"){
-		        	price = price + parseFloat($(this).val());
-		        }
-		        if (lang == "en"){
-		        	price = price + 3.5;
-		        }
-        	}
-        });
+		if ($(".escort_day").not(':checked').length == 0){
+        		if (lang == "hu"){
+			        	price = price + 5000;
+			    }
+			    if (lang == "en"){
+			        	price = price + 17;
+			    }
+		}
+		else {
+			$(".escort_day").each(function(){
+        		if($(this).is(':checked')){
+		        	if (lang == "hu"){
+			        	price = price + parseFloat($(this).val());
+			        }
+			        if (lang == "en"){
+			        	price = price + 3.5;
+			        }
+	        	}
+
+        	});
+		}
 
 		// Calculate meal prices
         $(".meal_price").each(function()

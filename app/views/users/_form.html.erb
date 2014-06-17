@@ -79,7 +79,7 @@
   <div id="escort_fields">
     <h2><%= t 'escorter' %></h2>
     <p><%= t 'escort_explain' %></p>
-  <% (1...7).each do |i| %>
+  <% (0...6).each do |i| %>
       <%= @meal_dates[i] %> <input type="checkbox" name="escort" class="escort_day" value="1000"><br/>
   <% end %>
   </div>
