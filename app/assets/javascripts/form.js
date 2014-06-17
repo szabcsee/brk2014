@@ -1,10 +1,13 @@
 $(document).ready(function(){
+	// Initial housekeeping for the form and setting variables
 	$("#escort_fields").hide();
 	$("input:checkbox").prop("checked", false);
 	$("#user_price_method").val("");
+
 	var cat = '';
 	var pricecat = '';
 	var lang = $("#form_language").val();
+
 	$("#currency_selector").val(lang);
 	$(".meal_price").val('0');
 	$("#forint").hide();
@@ -13,6 +16,7 @@ $(document).ready(function(){
 	$(".price_category_info").hide();
 	$("#price_method_alert").hide();
 
+	// Setup form helpers
 	$("#user_email_address").focus(function(){
 		$("#email_warning").show();
 	});
@@ -21,6 +25,7 @@ $(document).ready(function(){
 		$("#email_warning").hide();
 	});
 
+	// Listeners
 	$("#currency_selector").change(function(){
 		lang = $(this).val();
 		calculateTotal();
@@ -53,38 +58,6 @@ $(document).ready(function(){
 		calculateTotal();
 	});
 
-	$("#full_course").click(function(){
-		if ($(".price_category").is(':checked')){
-			if($(this).is(':checked')){
-				if (cat == ""){
-					if ($("#form_language").val() == "hu"){
-						alert('Válaszd ki a fizetés módját.');
-					}
-					if ($("#form_language").val() == "en"){
-						alert('Choose price method.');
-					}
-					$(this).prop('checked', false);
-				}
-				else {
-		        	$(".program_participation").prop('checked', true);
-		        }
-		    }
-		    else {
-		        $(".program_participation").prop('checked', false);
-		    }
-			calculateTotal();
-		}
-		else {
-			if ($("#form_language").val() == "hu"){
-				alert('Válaszd ki az árkategóriát.');
-			}
-			if ($("#form_language").val() == "en"){
-				alert('Choose price category.');
-			}
-			$(this).prop('checked', false);
-		}
-	});
-
 	$(".escort_day").click(function(){
        calculateTotal();
 	});
@@ -114,12 +87,6 @@ $(document).ready(function(){
 	        	}
 			$(this).prop('checked', false);
 		}
-		else {
-		if ($(".program_participation").not(':checked').length > 0)
-			$("#full_course").prop('checked', false);
-		else
-			$("#full_course").prop('checked', true);
-		}
 		calculateTotal();
 	});
 
@@ -135,9 +102,12 @@ $(document).ready(function(){
    		calculateTotal();
 	});
 
+
+	// Main function, calculates prices
 	function calculateTotal() {
 		price = 0;
 
+		// Calculate escort prices
 		$(".escort_day").each(function()
         {	if($(this).is(':checked')){
 	        	if (lang == "hu"){
@@ -149,6 +119,7 @@ $(document).ready(function(){
         	}
         });
 
+		// Calculate meal prices
         $(".meal_price").each(function()
         {
         	if($(this).is(':visible')){
@@ -229,7 +200,7 @@ $(document).ready(function(){
         		}
         	}
         });
-		if ($("#full_course").is(":checked")){
+		if ($(".program_participation").not(':checked').length == 0){
 				if (cat == 'after' && pricecat == 'full'){
 						if (lang == "hu"){
 	        				price = price + 20000;
@@ -256,33 +227,32 @@ $(document).ready(function(){
 	        	}
 		}
 		else {
-		$(".program_participation").each(function(){
-				debugger;
-				if($(this).is(':checked'))
-				{
-						if (pricecat == 'full'){
-							if (lang == "hu"){
-	        					price = price + parseFloat($(this).attr('data-full-price'));
-	        				}
-	        				if (lang == "en"){
-	        					price = price + parseFloat($(this).attr('data-full-price-eur'));
-	        				}
-						}
-						else if (pricecat == 'discount')
-						{
-							if (lang == "hu"){
-	        					price = price + parseFloat($(this).attr('data-discount-price'));
-	        				}
-	        				if (lang == "en"){
-	        					price = price + parseFloat($(this).attr('data-discount-price-eur'));
-	        				}
-						}
-						else if (pricecat == 'escort')
-						{
-							price = price;
-						}
-				}
-		});
+			$(".program_participation").each(function(){
+					if($(this).is(':checked'))
+					{
+							if (pricecat == 'full'){
+								if (lang == "hu"){
+		        					price = price + parseFloat($(this).attr('data-full-price'));
+		        				}
+		        				if (lang == "en"){
+		        					price = price + parseFloat($(this).attr('data-full-price-eur'));
+		        				}
+							}
+							else if (pricecat == 'discount')
+							{
+								if (lang == "hu"){
+		        					price = price + parseFloat($(this).attr('data-discount-price'));
+		        				}
+		        				if (lang == "en"){
+		        					price = price + parseFloat($(this).attr('data-discount-price-eur'));
+		        				}
+							}
+							else if (pricecat == 'escort')
+							{
+								price = price;
+							}
+					}
+			});
 		}
         $("#total_price").text(price);
         $(".price_container").val(price);
@@ -294,5 +264,6 @@ $(document).ready(function(){
         	$("#forint").hide();
         	$("#eur").show();
         }
+        price = 0;
 	}
 });
