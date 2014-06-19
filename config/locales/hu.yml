@@ -49,8 +49,8 @@ hu:
           location: "Helyszín: Becske, a Gyémánt Út Buddhista Közösség elvonulási központja"
           menu_title: Főoldal
           subtitle: "A jótársaság valószínűleg a világ legjobb drogja. Nincs semmi ami jobban megnyitna és több áldást és gazdagságot hozna az életünkbe mint ez. Láma Ole Nydahl"
-          teachers: "Utazótanítók - Rob Sok és Phil Carlisle"
-          title: "Tengeren túli nyári kurzus"
+          teachers: "Gyémánt Út-tanítók: Phil Carlisle - Dr. Kenn Maly - Rob Sok"
+          title: "Örömteli kötelékek"
         information:
           accomodation:
             link_1: "faradtvandor, "
@@ -62,13 +62,13 @@ hu:
             paragraph_3: "Becskéhez közelebb eső panziók és szálláshelyek: "
             title: Szálláslehetőségek
           blood_donation:
-            description: "Időpont: 2013. július 25., 9:00-15:00-ig. Személyi igazolvány, lakcím- és tb-kártya szükséges hozzá. EU-országokból érkezők szintén adhatnak vért (személyi azonosságot igazoló okmány szükséges)."
+            description: "Időpont: 2014. július 25., 9:00-15:00-ig. Személyi igazolvány, lakcím- és tb-kártya szükséges hozzá. EU-országokból érkezők szintén adhatnak vért (személyi azonosságot igazoló okmány szükséges)."
             title: "Véradást is szervezünk a kurzus alatt"
           child_care:
-            description: "A kurzus programjai alatt biztosítjuk a szülők bevonásával a gyermekek felügyeletét. Külön táborhelyet is fenntartunk a játszótér környékén a családoknak. Kérjük, hogy a gyermekeket is regisztráljátok!! "
+            description: "A kurzus programjai alatt csak a szülők bevonásával tudjuk biztosítani a gyermekek felügyeletét. "
             title: Gyermekfelügyelet
           food:
-            info: "A konyha glutén- és laktóz- mentesen főz idén is. Kérhetsz étkezést a teljes kurzusra vagy csak bizonyos napokra."
+            info: "Az étel glutén- és laktóz- mentes lesz az idén is. Kérhetsz étkezést a teljes kurzusra vagy csak bizonyos napokra."
             info_3_meals: "Javasoljuk, vedd igénybe a napi háromszori regisztrált étkezést."
             pay_there_1_1: "július 23-26."
             pay_there_1_2: "háromszori étkezés"
@@ -130,7 +130,7 @@ hu:
             bannk_accout_currency: "Deviza számla"
             bannk_accout_currency_address: "Unicredit Bank Zrt. - HU98109180010000001740990125"
             bannk_accout_currency_swift: "SWIFT: BACXHUHB"
-            deadline: "A kurzus díját, az étkezést és a buszt befizetheted 2013. Július 4-ig:"
+            deadline: "A kurzus díját, az étkezést befizetheted 2014. Július 4-ig:"
             organize_by_country_1: ""
             organize_by_country_2: ""
             paragraph_1: "személyesen a budapesti központban minden nap 18–21 óra között"
@@ -144,8 +144,8 @@ hu:
             discount_1_2: "10 000 Ft"
             discount_2_1: "Csak egy nap"
             discount_2_2: "4000 Ft"
-            discount_info: "Kedvezmények:"
-            discount_info_line: "15-18 év között, 62 év felett, a gyermekükkel érkező szülők közül az egyik szülőnek, illetve a gyermekével együtt érkező egyedülálló szülőnek. Valamint a nem európai országokból érkező barátoknak + Bulgária, Románia, Szerbia, Oroszország és Ukrajna."
+            discount_info: "Kedvezményes:"
+            discount_info_line: "15-18 éveseknek, 62 év felettieknek, a gyermekükkel érkező szülők közül az egyik szülőnek, illetve a gyermekével együtt érkező egyedülálló szülőnek, ha július 4-ig regisztrálnak."
             escort: Kísérő
             escort_1_1: "Teljses kurzus"
             escort_1_2: "5 000 Ft"
@@ -161,7 +161,7 @@ hu:
           usefull_information:
             paragraph_0: "Kutyát és egyéb háziállatot a kurzus területére tilos behozni!"
             paragraph_1: "Amit érdemes magunkkal hozni: sátor, fólia, ragasztó, hálózsák, ülőpárna, gumicsizma, esőkabát, elemlámpa, evőeszköz, tányér, pohár, kullancsriasztó, naptej, házipatika."
-            paragraph_2: "A speciális étrenddel kapcsolatos külön kéréseket a konyha nem tudja kiszolgálni és ételek egyéni tárolására sincs lehetőség"
+            paragraph_2: "A speciális étrenddel kapcsolatos külön kéréseket nem tudjuk kiszolgálni és ételek egyéni tárolására sincs lehetőség"
             paragraph_3: "Fülhallgatós FM-rádiót mindenki hozzon, mert Serab Gyalcen rinpocse programjai angolul folynak szinkrontolmácsolással. A kurzuson lesz internetkapcsolat, amely elérhető azok számára, akiknek a munkához ez elengedhetetlen."
             paragraph_4: "Mindenkit kérünk, fokozottan figyeljen:"
             paragraph_4_1: Kullancsveszélyre
@@ -183,9 +183,9 @@ hu:
         traveling_teachers:
           description: "Idén három tapasztalt Gyémánt Út tanító fogja tartani a kurzust Becskén"
           menu_title: "A tanítók"
-          par_1: "Phil Carlisle Phil Carlise először 1995-ben találkozott Lama Ole-val egy nyilvános tanításon. A Láma laza stílusa és nyugati megközelítése inspirálta Phil-t, hogy elkezdje a Gyémánt Út Buddhizmus gyakorlását. Mint világi gyakorló, Phil sikeres multimédia és web dizájner vállalkozásában dolgozik, beépítve a Buddhista gyakorlást a mindennapi modern életbe és munkába. 2007-ben Lama Ole kérte meg, hogy kezdje el tanítani a Gyémánt Út Buddhizmust, és terjessze ezeket az értékes tanításokat, olyan átláthatóan, amennyire csak lehetséges az idealista és tiszta gondolkodású nyugati emberek számára."
-          par_2: "Dr. Kenn Maly Crofton-ban született, Nebraska-ban (USA). Fenomenológiai filozófiát tanult a Duquesne-i Egyetemen, Martin Heidegger munkásságára specializálódva. A Wisconsin-La Crosse egyetem nyugalmazott filozófia professzora, ahol közel 30 évig tanított. Számos német könyvet fordított angolra, köztük fenomenológiai filozófiai és buddhista témájúakat is. Legutóbb együttműködött Lama Ole új könyvének („Félelem nélküli halál”) fordításában. Nagy szakértelemmel és tapasztalattal kapcsolja össze tanításai során a filozófiai szemléletmódot a sokéves Gyémánt Út Buddhista tapasztalatával, úgyis, mint tanító és gyakorló.Szabad idejében szeret főzni."
-          par_3: "1994-ben vet menedéket Lama Ole-tól Groningenben (Hollandiában). 2003-óta utazótanító. Néhány év érdekes egyetemi kutatói év után 2009-ben egy olaj és gázipari szolgáltató céget hozott létre Lithicon néven. Azóta a cégben a kutatási vonalon dolgozik, és az adatelemzőket vezeti. 1999-től Canberrában (Ausztrália) él feleségével Maike Brill-el. Egyéb érdeklődési területei között különböző kreatív tevékenységek szerepelnek, mint a festés, az írás, de foglalkozik üzleti fejlesztéssel, coachinggal is."
+          par_1: "Phil Carlise először 1995-ben találkozott Lama Oléval egy nyilvános tanításon. A láma laza stílusa és nyugati megközelítése inspirálta őt, hogy elkezdje a Gyémánt Út buddhizmus gyakorlását. Mint világi gyakorló, Phil sikeres multimédia- és webdizájner-vállalkozásában dolgozik, beépítve a buddhista gyakorlást a mindennapi, modern életbe és munkába. 2007-ben Láma Ole megkérte, hogy kezdje el tanítani a Gyémánt Út buddhizmust, és terjessze ezeket az értékes tanításokat olyan átláthatóan, amennyire csak lehetséges az idealista és tiszta gondolkodású nyugati emberek számára."
+          par_2: "Dr. Kenn Maly Croftonban született, Nebraskában (USA). Fenomenológiai filozófiát tanult a Duquesne-i Egyetemen, Martin Heidegger munkásságára specializálódva. A Wisconsin-La Crosse egyetem nyugalmazott filozófia professzora, ahol közel 30 évig tanított. Számos német könyvet fordított angolra, köztük fenomenológiai filozófiai és buddhista témájúakat is. Legutóbb Láma Ole új könyvének (Félelem nélküli halál) fordításában működött közre. Nagy szakértelemmel és tapasztalattal kapcsolja össze tanításai során a filozófiai szemléletmódot a sok éves Gyémánt Út buddhista tapasztalatával, tanítóként és gyakorlóként egyaránt. Szabad idejében szeret főzni."
+          par_3: "1994-ben vet menedéket Láma Olétól Groningenben, Hollandiában. 2003 óta utazó tanító. Néhány év érdekes egyetemi kutatói év után 2009-ben egy olaj- és gázipari szolgáltató céget hozott létre Lithicon néven. Azóta a cégben a kutatási vonalon dolgozik, és az adatelemzőket vezeti. 1999-től az ausztráliai Canberrában él feleségével, Maike Brill-lel. Egyéb érdeklődési területei között különböző kreatív tevékenységek szerepelnek, mint a festés, az írás, de foglalkozik üzleti fejlesztéssel, coachinggal is."
           subtitle: "Becske kurzus 2014"
           title: "A tanítók bemutatkozása:"
     models:
