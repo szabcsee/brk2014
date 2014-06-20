@@ -301,7 +301,7 @@ hu:
       month: Hónap
       second: Másodperc
       year: Év
-  email_body_1: "Sikeresen regisztrált a 2013-as becskei Gurujóga kurzusra."
+  email_body_1: "Sikeresen regisztrált a 2014-es becskei Örömteli kötelékek kurzusra."
   email_body_2: "A regisztráció referenciaszáma:"
   email_body_2_1: "Kérjük a referenciaszámot jegyezd fel, mert a fizetésnél szüksége lesz rá."
   email_body_3: "A regisztráció további részletei:"
@@ -509,7 +509,7 @@ hu:
   seventh_day_meal_type:
     0: "Nem kérek"
     3: "Kérek"
-  sitename: "Becskei Gurujóga Kurzus Regisztráció 2013"
+  sitename: "Örömteli kötelékek Kurzus Regisztráció 2014"
   sixth_day_meal_type:
     0: "Nem kérek"
     3: "Kérek"

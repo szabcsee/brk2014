@@ -241,12 +241,20 @@ $(document).ready(function(){
 			$(".program_participation").each(function(){
 					if($(this).is(':checked'))
 					{
-							if (pricecat == 'full'){
+							if (cat == 'after' && pricecat == 'full'){
 								if (lang == "hu"){
 		        					price = price + parseFloat($(this).attr('data-full-price'));
 		        				}
 		        				if (lang == "en"){
 		        					price = price + parseFloat($(this).attr('data-full-price-eur'));
+		        				}
+							}
+							else if (cat == 'before' && pricecat == 'full'){
+								if (lang == "hu"){
+		        					price = price + parseFloat($(this).attr('data-discount-price'));
+		        				}
+		        				if (lang == "en"){
+		        					price = price + parseFloat($(this).attr('data-discount-price-eur'));
 		        				}
 							}
 							else if (pricecat == 'discount')

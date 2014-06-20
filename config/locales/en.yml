@@ -300,7 +300,7 @@ en:
       month: Month
       second: Seconds
       year: Year
-  email_body_1: "You have successfully registered to the Becske - Guru Yoga course, 2013."
+  email_body_1: "You have successfully registered to the Joyful Bonds course, 2014."
   email_body_2: "Your reference number is:"
   email_body_2_1: "Please note down your reference number, because you will need it during the payment."
   email_body_3: "Your registration details:"
@@ -514,7 +514,7 @@ en:
   seventh_day_meal_type:
     0: None
     3: "Three Meals"
-  sitename: "Becske Guru Yoga Course Registration 2013"
+  sitename: "Joyful Bonds Course Registration 2014"
   sixth_day_meal_type:
     0: None
     3: "Three Meals"
