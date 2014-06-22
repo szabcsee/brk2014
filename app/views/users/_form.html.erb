@@ -106,8 +106,13 @@
     <% elsif I18n.locale.to_s == "en" %>
     	<td><%= program.program_name_en %></td>
     <% end %>
-    <td><%= program.price_full %></td>
-    <td><%= program.price_discount %></td>
+	<% if I18n.locale.to_s == "hu"%>
+    	<td><%= program.price_full %></td>
+    	<td><%= program.price_discount %></td>
+	<% elsif I18n.locale.to_s == "en" %>
+		<td><%= program.price_full_eur %></td>
+		<td><%= program.price_discount_eur %></td>
+	<% end %>
     <td>
     <%= f.fields_for :registrations do |reg| %>
       <%= reg.check_box :participate,  :class => "program_participation", data: { "full-price" => program.price_full, "discount-price" => program.price_discount, "full-price-eur" => program.price_full_eur, "discount-price-eur" => program.price_discount_eur,  } %>

@@ -48,9 +48,9 @@ hu:
           description: "Kérjük, szervezési okokból mindenképpen regisztrálj, akkor is, ha kísérőként érkezel, és nem kívánsz részt venni a programokon!"
           location: "Helyszín: Becske, a Gyémánt Út Buddhista Közösség elvonulási központja"
           menu_title: Főoldal
-          subtitle: "A jótársaság valószínűleg a világ legjobb drogja. Nincs semmi ami jobban megnyitna és több áldást és gazdagságot hozna az életünkbe mint ez. Láma Ole Nydahl"
+          subtitle: "Nyári nagykurzus Gyémánt Út-tanítókkal"
           teachers: "Gyémánt Út-tanítók: Phil Carlisle - Dr. Kenn Maly - Rob Sok"
-          title: "Örömteli kötelékek"
+          title: "Örömteli kötelékek a Gyémánt Úton"
         information:
           accomodation:
             link_1: "faradtvandor, "
@@ -58,7 +58,7 @@ hu:
             link_3: "tengerszempanzio, "
             link_4: tavifeszek
             paragraph_1: "Saját sátorban a kurzus területén."
-            paragraph_2: "Lakókocsival külön helyszínen, a Sztúpa alatti területen lesz mód parkolni (víz- és áramellátási lehetőséget nem tudunk külön biztosítani)."
+            paragraph_2: "Lakókocsival külön helyszínen, a Marpa-ház feletti vagy a vizesblokk mögötti területen lesz mód parkolni (víz- és áramellátási lehetőséget nem tudunk külön biztosítani)."
             paragraph_3: "Becskéhez közelebb eső panziók és szálláshelyek: "
             title: Szálláslehetőségek
           blood_donation:
@@ -73,7 +73,7 @@ hu:
             pay_there_1_1: "július 23-26."
             pay_there_1_2: "háromszori étkezés"
             pay_there_1_3: "2 100 Ft / nap"
-            pay_there_title: "Helyszíni regisztráció a következő napi étkezésre"
+            pay_there_title: "Július 4. után vagy a helyszínen regisztrált étkezés: (Fontos, hogy a helyszínen regisztrálva mindig csak a következő naptól lehet étkezésre jelentkezni!!!)"
             prepayed_three_time_1: "Napi  háromszori étkezés"
             prepayed_three_time_1_1: "Július 22."
             prepayed_three_time_1_2: vacsora
@@ -117,13 +117,13 @@ hu:
             title: Megközelítés
           menu_title: Információ
           parking:
-            paragraph_1: "Csak az őrzött parkolóban, a Sztúpával szembeni területen lehetséges (parkolási díj: 1000 Ft az egész hétre)."
+            paragraph_1: "Csak az őrzött parkolóban, a Sztúpával szembeni területen lehetséges."
             paragraph_2: "A kurzus területre sem autóval, sem motorral behajtani nem lehet a várható nagy létszám miatt. Kérjük az együttmûködéseteket!"
             paragraph_3: "Kérjük, hogy a Petőfi Sándor utcában ne lépjétek át a megengedett 30 km/h sebességet."
             paragraph_4: "Parkolóból való kihajtás a behajtással szemközti oldalon, a Mikszáth utca felé."
             title: Parkolás
           payment:
-            bank_account_comment: "A közleménybe kérjük, írd be: kurzus/étkezés/busz díja."
+            bank_account_comment: "A közleménybe kérjük, írd be: kurzus/étkezés díja."
             bank_account_forint: "Forint számla"
             bank_account_forint_address: "Unicredit Bank Zrt. - 10918001- 00000017- 40990039"
             bank_account_forint_name: "Gyémánt Út Buddhista Közösség"
@@ -143,27 +143,27 @@ hu:
             discount_1_1: "Teljes kurzus"
             discount_1_2: "10 000 Ft"
             discount_2_1: "Csak egy nap"
-            discount_2_2: "4000 Ft"
+            discount_2_2: "3000 Ft / nap"
             discount_info: "Kedvezményes:"
             discount_info_line: "15-18 éveseknek, 62 év felettieknek, a gyermekükkel érkező szülők közül az egyik szülőnek, illetve a gyermekével együtt érkező egyedülálló szülőnek, ha július 4-ig regisztrálnak."
             escort: Kísérő
             escort_1_1: "Teljses kurzus"
             escort_1_2: "5 000 Ft"
             escort_2_1: "Egy nap"
-            escort_2_2: "1 000 Ft"
+            escort_2_2: "1 000 Ft / nap"
             full: "Teljes ár"
             full_1_1: "Teljes kurzus, Július 4-ig befizetve étkezés nélkül."
             full_1_2: "15 000 Ft"
             full_2_1: "Teljes kurzus, Július 4. után befizetve étkezés nélkül"
             full_2_2: "20 000 Ft"
             full_2_3: "4000 Ft / nap"
-            title: Kurzusdíj
+            title: "Kurzusdíj/regisztráció"
           usefull_information:
             paragraph_0: "Kutyát és egyéb háziállatot a kurzus területére tilos behozni!"
             paragraph_1: "Amit érdemes magunkkal hozni: sátor, fólia, ragasztó, hálózsák, ülőpárna, gumicsizma, esőkabát, elemlámpa, evőeszköz, tányér, pohár, kullancsriasztó, naptej, házipatika."
             paragraph_2: "A speciális étrenddel kapcsolatos külön kéréseket nem tudjuk kiszolgálni és ételek egyéni tárolására sincs lehetőség"
             paragraph_3: "Fülhallgatós FM-rádiót mindenki hozzon, mert Serab Gyalcen rinpocse programjai angolul folynak szinkrontolmácsolással. A kurzuson lesz internetkapcsolat, amely elérhető azok számára, akiknek a munkához ez elengedhetetlen."
-            paragraph_4: "Mindenkit kérünk, fokozottan figyeljen:"
+            paragraph_4: "Mindenkit kérünk, fokozottan figyeljen a:"
             paragraph_4_1: Kullancsveszélyre
             paragraph_4_2: Hőségveszélyre
             paragraph_4_3: Víztakarékosságra
@@ -171,7 +171,7 @@ hu:
             paragraph_4_5: "Szelektív hulladékgyûjtésre"
             title: "Hasznos információk"
         programs:
-          description: "Tervezett program"
+          description: "Programok"
           fifth_program: "Július 26. Szombat 	- 10:00 közös meditáció - 15:00 tanítás - 20:00 tanítás"
           first_program: "Július 22. Kedd 	- 15:00-tól 24 órás 16. Karmapa meditáció"
           fourth_program: "Július 25. Péntek 	- 10:00 közös meditáció - 15:00 tanítás - 20:00 tanítás"
@@ -185,7 +185,7 @@ hu:
           menu_title: "A tanítók"
           par_1: "Phil Carlise először 1995-ben találkozott Lama Oléval egy nyilvános tanításon. A láma laza stílusa és nyugati megközelítése inspirálta őt, hogy elkezdje a Gyémánt Út buddhizmus gyakorlását. Mint világi gyakorló, Phil sikeres multimédia- és webdizájner-vállalkozásában dolgozik, beépítve a buddhista gyakorlást a mindennapi, modern életbe és munkába. 2007-ben Láma Ole megkérte, hogy kezdje el tanítani a Gyémánt Út buddhizmust, és terjessze ezeket az értékes tanításokat olyan átláthatóan, amennyire csak lehetséges az idealista és tiszta gondolkodású nyugati emberek számára."
           par_2: "Dr. Kenn Maly Croftonban született, Nebraskában (USA). Fenomenológiai filozófiát tanult a Duquesne-i Egyetemen, Martin Heidegger munkásságára specializálódva. A Wisconsin-La Crosse egyetem nyugalmazott filozófia professzora, ahol közel 30 évig tanított. Számos német könyvet fordított angolra, köztük fenomenológiai filozófiai és buddhista témájúakat is. Legutóbb Láma Ole új könyvének (Félelem nélküli halál) fordításában működött közre. Nagy szakértelemmel és tapasztalattal kapcsolja össze tanításai során a filozófiai szemléletmódot a sok éves Gyémánt Út buddhista tapasztalatával, tanítóként és gyakorlóként egyaránt. Szabad idejében szeret főzni."
-          par_3: "1994-ben vet menedéket Láma Olétól Groningenben, Hollandiában. 2003 óta utazó tanító. Néhány év érdekes egyetemi kutatói év után 2009-ben egy olaj- és gázipari szolgáltató céget hozott létre Lithicon néven. Azóta a cégben a kutatási vonalon dolgozik, és az adatelemzőket vezeti. 1999-től az ausztráliai Canberrában él feleségével, Maike Brill-lel. Egyéb érdeklődési területei között különböző kreatív tevékenységek szerepelnek, mint a festés, az írás, de foglalkozik üzleti fejlesztéssel, coachinggal is."
+          par_3: "Rob Sok 1994-ben vet menedéket Láma Olétól Groningenben, Hollandiában. 2003 óta utazó tanító. Néhány év érdekes egyetemi kutatói év után 2009-ben egy olaj- és gázipari szolgáltató céget hozott létre Lithicon néven. Azóta a cégben a kutatási vonalon dolgozik, és az adatelemzőket vezeti. 1999-től az ausztráliai Canberrában él feleségével, Maike Brill-lel. Egyéb érdeklődési területei között különböző kreatív tevékenységek szerepelnek, mint a festés, az írás, de foglalkozik üzleti fejlesztéssel, coachinggal is."
           subtitle: "Becske kurzus 2014"
           title: "A tanítók bemutatkozása:"
     models:

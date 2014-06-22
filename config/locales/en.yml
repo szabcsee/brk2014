@@ -44,13 +44,13 @@ en:
     controllers:
       static_pages:
         home:
-          date: "Date: 22nd to the 27th of July, 2014"
+          date: "Date: 22-27th July, 2014"
           description: "To help us with the organisation, please register even if you only come as a visitor accompanying family or friends and do not wish to participate in the programme."
-          location: "Place: Becske, retreat centre of the Diamond Way Buddhist Community"
+          location: "Location: Becske, Diamond Way Buddhist Retreat Center"
           menu_title: Home
           subtitle: "Probably the best drug in the world is good company. Nothing opens us better and gives more richness and blessing to our life than this. Lama Ole Nydahl"
-          teachers: "Travel teachers - Rob Sok and Phil Carlisle"
-          title: "Joyful Bonds Course - Becske 2014"
+          teachers: "Diamond Way teachers - Phil Carlisle - Dr. Kenn Maly- Rob Sok"
+          title: "Joyful Bonds - Summer course with Diamond Way teachers"
         information:
           accomodation:
             link_1: "faradtvandor, "
@@ -58,14 +58,14 @@ en:
             link_3: "tengerszempanzio, "
             link_4: tavifeszek
             paragraph_1: "In your own tent on the course area."
-            paragraph_2: "In your own caravan: you may park in a separate area under the Stupa (we cannot supply water and electricity)."
-            paragraph_3: "Pensions and other accommodation around Becske: "
+            paragraph_2: "In your own caravan: you may park in a separate area over the Marpa-house or next to the bath-houses (we cannot supply water and electricity)."
+            paragraph_3: "Guesthouses and other accommodation around Becske: "
             title: Accomodation
           blood_donation:
-            description: "Date: from 9 am to 3 pm on 23rd-26th July, 2014. If you are an EU citizen and wish to donate, you may do so. You need some proof of identity (passport or ID card) for this."
+            description: "Date: from 9 am to 3 pm on the 25th of July, 2014. If you are an EU citizen and wish to donate, you may do so. You need some proof of identity (passport or ID card) for this."
             title: "Blood donation during the course:"
           child_care:
-            description: "Child care is organised during the course programmes with the help of parents. We also reserve a tenting area near the playground for families. Please register your children as well."
+            description: "Child care is organised during the course programmes with the help of parents only. We also reserve a camping area near the playground for families. Please register your children as well."
             title: "Child care"
           food:
             info: "The kitchen will cook gluten- and lactose-free this year as well. You may ask for meals for the whole course or only for certain days."
@@ -86,7 +86,7 @@ en:
             prepayed_three_time_3_3: "5 Euros"
             prepayed_three_time_4_1: "For the whole course"
             prepayed_three_time_4_3: "43 Euros"
-            prepayed_title: "Paid until 4th July"
+            prepayed_title: "Paid until the 4th July"
             title: Meals
           further_information:
             address: "H-1074 Budapest, Huszár utca 7-9."
@@ -123,7 +123,7 @@ en:
             paragraph_4: "Exit from the parking area is opposite the entrance, in the direction of Mikszáth utca."
             title: Parking
           payment:
-            bank_account_comment: "In the comments box, please give course/meals/bus fee."
+            bank_account_comment: "In the comments box, please enter the course/meals fee."
             bank_account_forint: "Forint bank account number"
             bank_account_forint_address: "Unicredit Bank Zrt. - 10918001- 00000017- 40990039"
             bank_account_forint_name: "Gyémánt Út Buddhista Közösség"
@@ -133,8 +133,8 @@ en:
             deadline: "You can pay for the course fee, the meals and the bus until 4th July, 2014:"
             organize_by_country_1: "If you would like to pay in cash, than please each and every country organize it. Find one contact person who collects the money with names and reg. numbers from everyone until 19th of June deadline. Then till the deadline, please send the list to the kiskovacs.miklos@gmail.com e-mail address. The money can be brought to the course by a designated contact person from each country."
             organize_by_country_2: "Please make sure that you have cash with you as we will not be able to accept credit cards."
-            paragraph_1: "personally in the Budapest Centre every day between 6 and 9 pm"
-            paragraph_2: "or by bank transfer"
+            paragraph_1: "in person in the Budapest Centre every day between 6 and 9 pm"
+            paragraph_2: "by transferring the amount to the following bank accounts:"
             title: Payment
           prices:
             child: "0-14 year-olds"
@@ -142,24 +142,24 @@ en:
             discount: Discount
             discount_1_1: "Full course"
             discount_1_2: "35 Euros"
-            discount_1_3: "10 Euros / Day"
+            discount_1_3: "10 Euros / day"
             discount_info: "Discount:"
-            discount_info_line: "For 15-18 years old, for above 62 years old. For one of the parents in a family coming with their children, and for single parents coming with their children."
+            discount_info_line: "aged between 15-18, over 62 yrs. For one of the parents in a family coming with their children, and for single parents coming with their children."
             escort: "Visitor’s fee"
             escort_1_1: "Full course"
             escort_1_2: "15 Euros"
             escort_2_1: "One day"
-            escort_2_2: "3 Euros"
+            escort_2_2: "3 Euros / day"
             full: Full
-            full_1_1: "If you registered and paid until 4th of July (without meals) "
+            full_1_1: "If you registered and paid until the 4th of July (without meals) "
             full_1_2: "55 Euros"
-            full_2_1: "If you haven't registered until 4th June"
+            full_2_1: "If you paid after the 4th of July"
             full_2_2: "70 Euros"
-            full_2_3: "15 Euros / Day"
+            full_2_3: "15 Euros / day"
             title: "Course fee"
           usefull_information:
-            paragraph_0: "Please do not bring dogs or other pets into the course."
-            paragraph_1: "What to bring with you: tent, plastic sheeting, duck tape, sleeping bag, meditation cushion, rubber boots, raincoat, flashlight, eating utensils, plate, glass, tick repellent, sunscreen, basic medication that you might need."
+            paragraph_0: "Please DO NOT BRING dogs or other pets into the course."
+            paragraph_1: "What to bring with you: tent, plastic cover for your tents, duck tape, sleeping bag, meditation cushion, rubber boots, raincoat, torch, plates and cutlery, glass, tick repellent, sunscreen, basic medication that you might need."
             paragraph_2: "If you are on a special diet, please bring food for yourself, and as we cannot provide individual food storage, please bring non-perishable food."
             paragraph_3: "Please bring an FM radio with headset if you need translation, because Sherab Gyaltsen Rinpoche’s programmes are in English with simultaneous interpretation. Good news that we managed to build infrastructure for good internet connection which will be available for those who really need for working or special purposes. Please share this with those for whom it might be important."
             paragraph_4: "Please pay special attention to:"
@@ -170,21 +170,21 @@ en:
             paragraph_4_5: "Selective rubbish collection"
             title: "Usefull information"
         programs:
-          description: "Preliminary schedule"
-          fifth_program: "26th July Saturday	- 10 am common meditation - 3 pm teaching - 8 pm teaching"
+          description: "Planned schedule"
+          fifth_program: "26th July Saturday	- 10 am common meditation - 3 pm lecture - 8 pm lecture"
           first_program: "22nd July Tuesday	- from 3 pm 24-hour meditation - Guru Yoga on the 16th Karmapa"
-          fourth_program: "25th July Friday	- 10 am common meditation - 3 pm teaching - 8 pm teaching"
+          fourth_program: "25th July Friday	- 10 am common meditation - 3 pm lecture - 8 pm lecture"
           menu_title: Programs
-          second_program: "23th July Wednesday	- to 3 pm 24-hour meditation - 3 pm teaching - 8 pm teaching"
-          sixth_program: "27th July Sunday 	- 10 am common meditation - 3 pm teaching"
-          third_program: "24th July Thursday	- 10 am common meditation - 3 pm teaching - 8 pm teaching"
+          second_program: "23th July Wednesday	- to 3 pm 24-hour meditation - 3 pm lecture - 8 pm lecture"
+          sixth_program: "27th July Sunday 	- 10 am common meditation - 3 pm lecture"
+          third_program: "24th July Thursday	- 10 am common meditation - 3 pm lecture - 8 pm lecture"
           title: Programs
         traveling_teachers:
           description: "This year three experienced Diamond Way teachers hold the course in Becske."
           menu_title: "The teachers"
           par_1: "Phil Carlisle first met Lama Ole Nydahl in 1995 at a public talk. The Lama's relaxed style and western approach inspired Phil to begin practising Diamond Way Buddhism in the Karma Kagyu Lineage of Tibetan Vajrayana Buddhism. As a lay practitioner Phil runs a successful multimedia and web design business integrating his Buddhist practice with living and working in the modern world. In 2007 Lama Ole asked Phil to begin teaching Diamond Way Buddhism and spread these precious teachings as transparently as possible to idealistic clear-thinking Westerners."
           par_2: "Dr. Kenn Maly was born in Crofton, Nebraska, and studied phenomenological philosophy at Duquesne University, specializing in the work of Martin Heidegger. He is Professor Emeritus of Philosophy at University of Wisconsin-La Crosse, where he taught for nearly thirty years. He has translated numerous German books into English, including key texts of phenomenological philosophy and Buddhist texts. Most recently Kenn collaborated in the translation of Lama Ole Nydahl’s new book “Fearless Death: Buddhist Wisdom on the Art of Dying.” He brings his vast experience and expertise in phenomenology’s focus on interpreting experience together with his many years in Diamond Way Buddhism, both as Buddhist teacher and practitioner. He enjoys cooking!"
-          par_3: "Refuge: 1994 with Ole in Groningen (Netherlands) Teaching since: 2003 Occupation: After being part of some interesting research at universities, in 2009 we set up a company based on this research ('Lithicon'), doing service work for the gas and oil, and since then have worked for Lithicon in the research corner, as well as managing the data analysts. Country: Since 1999 I have lived with my wife Maike Brill in Canberra/Australia. Special interest: many and varied: mostly creative (painting, writing, etc), but also in business development, coaching etc."
+          par_3: "Rob Sok took Refuge in 1994 with Ole in Groningen (Netherlands). Teaching since: 2003. Occupation: After being part of some interesting research at universities, in 2009 we set up a company based on this research ('Lithicon'), doing service work for the gas and oil, and since then have worked for Lithicon in the research corner, as well as managing the data analysts. Country: Since 1999 I have lived with my wife Maike Brill in Canberra/Australia. Special interest: many and varied: mostly creative (painting, writing, etc), but also in business development, coaching etc."
           subtitle: "Becske course 2014"
           title: "Introduction of the teachers:"
     models:
