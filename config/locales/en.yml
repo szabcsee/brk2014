@@ -143,6 +143,8 @@ en:
             discount_1_1: "Full course"
             discount_1_2: "35 Euros"
             discount_1_3: "10 Euros / day"
+            discount_2_1: "Only one day"
+            discount_2_2: "10 Euros / day"
             discount_info: "Discount:"
             discount_info_line: "aged between 15-18, over 62 yrs. For one of the parents in a family coming with their children, and for single parents coming with their children."
             escort: "Visitor’s fee"
@@ -308,6 +310,9 @@ en:
   email_body_5: programs
   email_dear: Dear
   email_warning: "Please make sure that your email address is correct."
+  email_dinner: "Dinner"
+  email_two_meals: "Breakfast, lunch"
+  email_three_meals: "Three meals"
   errors:
     format: "%{attribute} %{message}"
     messages:

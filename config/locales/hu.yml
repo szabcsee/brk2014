@@ -309,6 +309,9 @@ hu:
   email_body_5: programok
   email_dear: Kedves
   email_warning: "Kérlek győződj meg róla, hogy az email címed helyes."
+  email_dinner: "Vacsora"
+  email_two_meals: "Reggeli, ebéd"
+  email_three_meals: "Háromszori étkezés"
   errors:
     format: "%{attribute} %{message}"
     messages:
